@@ -1,15 +1,17 @@
-.PHONY: clean domainname build production-build serve
+.DEFAULT_GOAL := help
 
-clean:
-	rm -rf public
+.PHONY: help
+help: ## Outputs the help
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-domainname:
-	cp CNAME ./public
+.PHONY: clean
+clean: ## Removes generated files (e.g., the public/ folder)
+	rm -rf public/
 
-build: clean
+.PHONY: build
+build: clean ## Generates the static site (aka a production build)
 	hugo --gc --minify
 
-production-build: build domainname
-
-serve:
+.PHONY: serve
+serve: ## Starts a Hugo server with file watching (and re-rendering) enabled
 	hugo server -w

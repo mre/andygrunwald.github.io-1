@@ -28,8 +28,9 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-    - name: Purge Cloudflare cache
-      uses: jakejarvis/cloudflare-purge-action@master
-      env:
-        CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+    # TODO: Fix it
+    #- name: Purge Cloudflare cache
+    #  uses: jakejarvis/cloudflare-purge-action@master
+    #  env:
+    #    CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+    #    CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}

@@ -1,6 +1,8 @@
-### Type
+## Type
 
 A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize. This theme is a port of the original [Type theme](https://github.com/rohanchandra/type-theme) made by [Rohan Chandra](https://github.com/rohanchandra). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, Google Analytics and localization (l10n) support.
+
+#### Please not that this theme is no longer maintained.
 
 ![](https://raw.githubusercontent.com/digitalcraftsman/hugo-type-theme/dev/images/screenshot.png)
 
@@ -69,7 +71,7 @@ This way you can store them either next to the content file or in the `static` f
 
 ## About page
 
-If you want to tell your audience who you are create a new file called `index.md` under `content/about`. For an example look at `exampleSite/content/about/index.md` inside the theme folder.
+If you want to tell your audience who you are create a new file called `about.md` under `content`. For an example look at `exampleSite/content/about.md` inside the theme folder.
 
 
 ## Nearly finished
@@ -98,4 +100,5 @@ This theme is released under the MIT license. For more information read the [lic
 Thanks to
 
 - [Rohan Chandra](https://github.com/rohanchandra) for creating the original theme
-- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+- [Steve Francia](https:////github.com/spf13) for creating Hugo and the awesome community around the project.
+- [Andy Grunwald](https://github.com/andygrunwald) for contributing numerous improvements

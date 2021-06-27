@@ -24,10 +24,18 @@ $ hugo new post/resources-to-learn-golang.md
 
 ## Theme
 
-The basement was the [hugo-type-theme](https://github.com/digitalcraftsman/hugo-type-theme).
-Thank you for this!
+We used [hugo-type-theme](https://github.com/digitalcraftsman/hugo-type-theme) as a foundation (thanks for this!).
+Sadly, this theme is no longer maintained.
+We went from there and modified the original theme for our needs.
 
-Right now we are running revision [c7bc015](https://github.com/digitalcraftsman/hugo-type-theme/commit/c7bc01590bbfd6dbae5310ad0c3a44360976cab4) of this theme.
+### Other themes with a nice design
+
+* [Anatole](https://themes.gohugo.io/anatole/)
+* [Clean White](https://themes.gohugo.io/hugo-theme-cleanwhite/)
+* [Noteworthy](https://themes.gohugo.io/hugo-theme-noteworthy/)
+* [Yourfolio](https://themes.gohugo.io/yourfolio/)
+* [Introduction](https://themes.gohugo.io/hugo-theme-introduction/)
+* [Initio](https://themes.gohugo.io/hugo-initio/)
 
 ## Contribution welcome
 

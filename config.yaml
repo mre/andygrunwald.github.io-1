@@ -11,6 +11,9 @@ permalinks:
 privacy:
   googleAnalytics:
     anonymizeIP: true
+    disable: false
+  disqus:
+    disable: true
 
 SectionPagesMenu: "nav"
 

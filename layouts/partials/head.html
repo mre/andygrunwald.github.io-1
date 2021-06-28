@@ -9,6 +9,8 @@
 
 	{{ template "_internal/opengraph.html" . }}
 
+	<link rel="canonical" href="{{ .Permalink }}">
+
 	{{ "<!-- CSS -->" | safeHTML }}
 	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 

@@ -12,6 +12,8 @@ privacy:
   googleAnalytics:
     anonymizeIP: true
     disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
   disqus:
     disable: true
 

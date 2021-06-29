@@ -8,8 +8,8 @@ tags = ["analytics", "development", "Jacobine", "metrics", "open source", "softw
 title = "TYPO3-Analytics: Release of version v0.0.1"
 +++
 
-Today i tagged and released version [v0.0.1](https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.0.1) of the project [TYPO3-Analytics](https://github.com/andygrunwald/TYPO3-Analytics).
-After [303 days](https://www.timeanddate.com/date/durationresult.html?d1=19&m1=4&y1=2013&d2=15&m2=2&y2=2014&ti=on) and [144 commits](https://github.com/andygrunwald/TYPO3-Analytics/commits/v0.0.1) later, i decided to make a "cut" and start a new version.
+Today i tagged and released version [v0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1) of the project [TYPO3-Analytics](https://github.com/andygrunwald/Jacobine).
+After [303 days](https://www.timeanddate.com/date/durationresult.html?d1=19&m1=4&y1=2013&d2=15&m2=2&y2=2014&ti=on) and [144 commits](https://github.com/andygrunwald/Jacobine/commits/v0.0.1) later, i decided to make a "cut" and start a new version.
 
 This version is a first (workable as far as I know) "proof of concept" for a repository mining platform to produce (community) metrics of various systems.
 The first example system is [TYPO3](https://typo3.org/).
@@ -41,7 +41,7 @@ The first example system is [TYPO3](https://typo3.org/).
 * Messages to crawl a Gitweb site
 * Messages to crawl an NNTP server
 
-This release can be downloaded from github: [v0.0.1: Release of version 0.0.1](https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.0.1)
+This release can be downloaded from github: [v0.0.1: Release of version 0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1)
 
 # What will be tackled in the next version?
 

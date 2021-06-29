@@ -77,7 +77,7 @@ specify the version explicitly via `pecl install redis-3.1.6`.
 
 ### Extension `snmp`
 
-If you rely on the [SNMP Extension](https://secure.php.net/manual/en/book.snmp.php), I have to disappoint you right now.
+If you rely on the [SNMP Extension](https://www.php.net/manual/en/book.snmp.php), I have to disappoint you right now.
 This extension is, state of now (2018-04-10), not part of this PHP build:
 
 > SNMP was excluded from the build because it crashes Apache.

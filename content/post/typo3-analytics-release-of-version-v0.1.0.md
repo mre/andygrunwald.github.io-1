@@ -9,15 +9,15 @@ title = "TYPO3-Analytics: Release of version v0.1.0"
 +++
 
 The project grows and grows :)
-The next release of [TYPO3-Analytics in version v0.1.0](https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.1.0) is out!
+The next release of [TYPO3-Analytics in version v0.1.0](https://github.com/andygrunwald/Jacobine/releases/tag/v0.1.0) is out!
 This release covers various nice features, enhancements, and bugfixes.
 
 <!--more-->
 
-Get the new version now! Its hot: [TYPO3-Analytics v0.1.0](https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.1.0)
+Get the new version now! Its hot: [TYPO3-Analytics v0.1.0](https://github.com/andygrunwald/Jacobine/releases/tag/v0.1.0)
 
-But what was done in the last [65 days](https://www.timeanddate.com/date/durationresult.html?d1=15&m1=2&y1=2014&d2=19&m2=4&y2=2014&ti=on) and [109 commits](https://github.com/andygrunwald/TYPO3-Analytics/commits/v0.1.0)?
-Some numbers (from the [github compare view](https://github.com/andygrunwald/TYPO3-Analytics/compare/v0.0.1...v0.1.0)):
+But what was done in the last [65 days](https://www.timeanddate.com/date/durationresult.html?d1=15&m1=2&y1=2014&d2=19&m2=4&y2=2014&ti=on) and [109 commits](https://github.com/andygrunwald/Jacobine/commits/v0.1.0)?
+Some numbers (from the [github compare view](https://github.com/andygrunwald/Jacobine/compare/v0.0.1...v0.1.0)):
 
 * 70 changed files
 * 5,934 line additions

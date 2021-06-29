@@ -285,7 +285,7 @@ This helps to get a definite answer.
 Here are a few companies I know that offer meetup sponsoring:
 
 * [GitHub](https://community.github.com/)
-* [JetBrains](https://www.jetbrains.com/support/community/#section=communities)
+* [JetBrains](https://www.jetbrains.com/community/user-groups/)
 * [t3n](https://t3n.de/) (German digital magazine)
 * [DigitalOcean](https://www.digitalocean.com/)
 
@@ -401,7 +401,7 @@ You will see it is a great experience.
 
 ## More to read
 
-If you still want to read more about this topic have a look at [Running a Go Meetup](https://github.com/corylanou/go-meetup) or [25 Best Practices for Meetup Organizers](http://mikeschinkel.com/blog/25-best-practices-for-meetup-organizers/).
+If you still want to read more about this topic have a look at [Running a Go Meetup](https://github.com/corylanou/go-meetup) or [25 Best Practices for Meetup Organizers](https://mikeschinkel.com/2010/25-best-practices-for-meetup-organizers/).
 
 Many people are sharing their experience in [the related Reddit thread for this blog post](https://www.reddit.com/r/programming/comments/59bcka/lesson_learned_from_running_a_local_meetup/).
 

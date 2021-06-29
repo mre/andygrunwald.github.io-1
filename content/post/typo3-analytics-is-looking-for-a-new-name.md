@@ -8,7 +8,7 @@ tags = ["analytics", "development", "Jacobine", "metrics", "open source", "softw
 title = "TYPO3-Analytics is looking for a new name - suggestions welcome!"
 +++
 
-At [Apr 19, 2013](https://github.com/andygrunwald/TYPO3-Analytics/commit/b44dd91e359ad55478919cc94278d26fffbdde03) I started [TYPO3-Analytics](https://github.com/andygrunwald/TYPO3-Analytics) to create a prototype or proof of concept to make my first steps in fields data mining/software repository mining, statistics, and data visualization.
+At [Apr 19, 2013](https://github.com/andygrunwald/Jacobine/commit/b44dd91e359ad55478919cc94278d26fffbdde03) I started [TYPO3-Analytics](https://github.com/andygrunwald/Jacobine) to create a prototype or proof of concept to make my first steps in fields data mining/software repository mining, statistics, and data visualization.
 
 At this time I got an extensive and in-depth knowledge of the [TYPO3](https://typo3.org/) ecosystem (code, people, tools, systems, processes, events, etc.) and the TYPO3 community manager [Ben van 't ende](https://ben.vanten.de/) motivated me to create some metrics ;)
 So the first project was TYPO3.

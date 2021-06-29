@@ -77,7 +77,7 @@ origin git@github.com:andygrunwald/Jacobine.git (push)
 
 Please pay attention to the name of your remote (origin or maybe [upstream](https://help.github.com/articles/syncing-a-fork)) and the protocol you use (*git://* or *https://*).
 
-The ecosystem around *Jacobine* (the [web frontend](https://github.com/andygrunwald/TYPO3-Analytics-Web), the [vagrant machine](https://github.com/andygrunwald/TYPO3-Analytics-Vagrant) and the [chef cookbook](https://github.com/andygrunwald/chef-typo3analytics)) will be renamed in the next days.
+The ecosystem around *Jacobine* (the [web frontend](https://github.com/andygrunwald/Jacobine-Web-Frontend), the [vagrant machine](https://github.com/andygrunwald/Jacobine-Vagrant) and the [chef cookbook](https://github.com/andygrunwald/chef-jacobine)) will be renamed in the next days.
 
 If you got any problems or need help to migrate your clone, I will help you as much as possible.
 Just add a comment, send a tweet ([@andygrunwald](https://twitter.com/andygrunwald)) or send me an email.

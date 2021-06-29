@@ -19,6 +19,8 @@ privacy:
 
 SectionPagesMenu: "nav"
 
+enableRobotsTXT: true
+
 # Syntax highlighting
 pygmentsCodeFences: true
 pygmentsStyle: "friendly"

@@ -32,7 +32,7 @@ Inspired by this, I had two motivational goals:
 2. to **combine software** (a field I know) **with hardware** (an area I don't know) and create something real
 
 The idea slept for a long time.
-On the 1st of December 2017, I remembered it and ordered [four big red buzzers](https://www.ebay.de/itm/100mm-Selbstruck-Convex-Taster-Spiel-Vending-Machine-Control-Microswitch/182433206826?hash=item2a79ddd22a:g:xBYAAOSwlx9cLb5Y).
+On the 1st of December 2017, I remembered it and ordered [four big red buzzers](https://www.amazon.de/Beleuchtete-Druckkn%C3%B6pfe-S%C3%A4ulengang-Maschinen-Betriebene/dp/B07F9W55FX/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=convex+taster&qid=1624985594&sr=8-11).
 Nothing happened again for some time until my employer ([trivago](https://www.trivago.com/)) announced an internal tech conference planned for March 2019.
 
 This was the chance!

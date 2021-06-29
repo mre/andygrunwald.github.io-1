@@ -53,7 +53,7 @@ Before we continue, we want to ensure that the
 Run `php --version`, `php --ini` and `pear config-show | grep php.ini` and check if everything is pointing to the right
 PHP version and that no warnings are displayed.
 
-If you encounter any problems, check the [Troubleshooting](./homebrew-migrate-your-php-setup.md#troubleshooting) section
+If you encounter any problems, check the [Troubleshooting]({{< ref "/post/homebrew-migrate-your-php-setup.md#troubleshooting" >}}) section
 below.
 
 ## 5. Install Extensions
@@ -81,10 +81,6 @@ If you rely on the [SNMP Extension](https://secure.php.net/manual/en/book.snmp.p
 This extension is, state of now (2018-04-10), not part of this PHP build:
 
 > SNMP was excluded from the build because it crashes Apache.
-
-Check out the comments of [SMillerDev](https://github.com/SMillerDev) in
-[php7.1 extension warnings after migration to core and upgrade #4827](https://github.com/Homebrew/homebrew-php/issues/4827)
-and [php71: migrate to homebrew/core #4798](https://github.com/Homebrew/homebrew-php/pull/4798).
 
 ## 6. Cleanup
 
@@ -120,7 +116,6 @@ during uninstall. In this case edit your `php.ini` manually and remove deprecate
 ## Resources
 
 - [Homebrew 1.5.0 release announcement](https://brew.sh/2018/01/19/homebrew-1.5.0/)
-- [Homebrew/homebrew-php @ github](https://github.com/Homebrew/homebrew-php)
 - [PHP load and tap errors with latest brew @ brew discourse](https://discourse.brew.sh/t/php-load-and-tap-errors-with-latest-brew/1956/2)
 
 [PATH]: https://en.wikipedia.org/wiki/PATH_(variable)

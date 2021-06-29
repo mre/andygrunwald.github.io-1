@@ -29,7 +29,7 @@ It was not far away from my hometown (~200 km), so it was a very short ride.
 And due to the big range of topics, this conference sounds very interesting!
 
 At the conference, I attend many talks about different topics.
-But one talk was kind of special for me: [Do you want to measure your project?](https://archive.fosdem.org/2013/schedule/event/do_you_want_to_measure_your_project/) by [Jesus M. Gonzalez-Barahona](https://archive.fosdem.org/2013/schedule/speaker/jesus_m_gonzalez_barahona/) ([Video](s/2013/lightningtalks/Do_you_want_to_measure_your_project_.webm), [Slides](https://speakerdeck.com/jgbarah/do-you-want-to-measure-your-project)).
+But one talk was kind of special for me: [Do you want to measure your project?](https://archive.fosdem.org/2013/schedule/event/do_you_want_to_measure_your_project/) by [Jesus M. Gonzalez-Barahona](https://archive.fosdem.org/2013/schedule/speaker/jesus_m_gonzalez_barahona/) ([Video](http://video.fosdem.org/2013/lightningtalks/Do_you_want_to_measure_your_project_.webm), [Slides](https://speakerdeck.com/jgbarah/do-you-want-to-measure-your-project)).
 Jesus talks about [Metrics Grimoire](https://metricsgrimoire.github.io/), a toolset to crawl data which were produced during software development and [Viz Grimoire](http://vizgrimoire.bitergia.org/), a toolset to visualize the received data.
 Some tools of MetricsGrimoire are [CVSAnalY](https://github.com/MetricsGrimoire/CVSAnalY) to crawl VCS (CVS, Subversion, Git, ...), [Bicho](https://github.com/MetricsGrimoire/Bicho) to extract data from Bugtracker (Jira, Redmine, Mantis, ...) or [MLStats](https://github.com/MetricsGrimoire/MailingListStats) to get email content from mailing lists.
 
@@ -40,7 +40,7 @@ Downloaded it, installed it and started to crawl some repositories I know (e.g. 
 16 days after the conference, I began to contribute to CVSAnaly with [a small notice about the max_allowed_packet of MySQL](https://github.com/MetricsGrimoire/CVSAnalY/commit/d69e569d2dff5fa8e98cc0f3c414071eaaf37984) for the first time.
 
 At this time I didn`t write one line [Python](https://www.python.org/).
-But every programmer has to [learn one language per year](https://pragprog.com/the-pragmatic-programmer).
+But every programmer has to learn one language per year.
 I started to learn Python and [continued contribution to CVSAnaly](https://github.com/MetricsGrimoire/CVSAnalY/commits?author=andygrunwald).
 In the same time ([Apr 19, 2013](https://github.com/andygrunwald/TYPO3-Analytics/commit/b44dd91e359ad55478919cc94278d26fffbdde03)) I started [TYPO3-Analytics](https://github.com/andygrunwald/TYPO3-Analytics), a project to analyze and visualize various data sources of the TYPO3 ecosystem based on open/standard APIs.
 CVSAnaly was integrated into this analysis suite.
@@ -54,8 +54,8 @@ I continued to work at TYPO3-Analytics and CVSAnaly.
 During this time I found a lot of interesting paper about programming topics.
 Here is a tiny list of this paper (if you want more just ping me ;)):
 
-* [An Analysis of the Dynamic Behavior of JavaScript Programs](https://www.cs.purdue.edu/sss/projects/dynjs/pldi275-richards.pdf)
-* [Analysis of Signature Change Patterns](http://msr.uwaterloo.ca/msr2005/papers/28.pdf)
+* [An Analysis of the Dynamic Behavior of JavaScript Programs](https://sss.cs.purdue.edu/projects/dynjs/pldi275-richards.pdf)
+* [Analysis of Signature Change Patterns](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.76.3203&rep=rep1&type=pdf)
 * [Will My Patch Make It? And How Fast? Case Study on the Linux Kernel](http://mcis.polymtl.ca/publications/2013/msr_jojo.pdf)
 
 At [1st & 2nd February 2014 the FOSDEM event](https://fosdem.org/2014/) retakes places in Brussels, Belgium.

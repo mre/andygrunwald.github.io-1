@@ -25,7 +25,7 @@ We were thinking about how we can kick off this event.
 
 One week before the conference, I was attending a workshop about _Stress, Resilience, and Conflict Management_ by [Philip Schwidetzki](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/) from [CONTRACT](https://world-of-contract.com/en/).
 After lunch, typically, you play quick energizer games to avoid fatigue.
-With eight people, Philip played [Rock–Paper–Scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) differently than we were used to it. 
+With eight people, Philip played [Rock–Paper–Scissors](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) differently than we were used to it.
 
 The idea was born to **scale this up to 500 people and to start the conference** by this.
 
@@ -41,7 +41,7 @@ Every player chose an opponent by random and started playing the first round.
 The responsibility as a fan was to support the player by cheering them up during the next game.
 The winner searched now for another winner of the previous game and started playing the next game.
 
-By this technique, we divided the crowd by two in every round. In the first round, 250 games happened in parallel, 125 games in the second and so on. The final round has formed by the two winners with 249 fans each in their back. 
+By this technique, we divided the crowd by two in every round. In the first round, 250 games happened in parallel, 125 games in the second and so on. The final round has formed by the two winners with 249 fans each in their back.
 
 To execute this with 500 people, we had to apply one organizational trick: **Divide it!**.
 
@@ -130,4 +130,3 @@ They deserve a vast **Thank you** for this:
 
 - Thanks to [Cristiano Zoucas](https://thenounproject.com/cristiano.zoucas) for the icons [Fist](https://thenounproject.com/term/fist/477918/), [Hand](https://thenounproject.com/term/hand/477922/) and [Scissors](https://thenounproject.com/term/scissors/477919/)
 - Thanks to [Danil Polshin](https://thenounproject.com/everydaytemplate/) for his [People2 collection](https://thenounproject.com/everydaytemplate/collection/people2/)
-- Thanks to [Raden](https://thenounproject.com/adenicons) for his [Chair](https://thenounproject.com/search/?q=chair&i=2731338)

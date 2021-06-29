@@ -48,4 +48,4 @@ A couple of people did and here is the result:
 ---
 
 Thanks for all the feedback.
-If you want to provide us further feedback, you can do it anonymously via [WebEngDUS @ Constructeev](http://www.constructeev.com/webengdus) (thanks to [Wolfgang](https://twitter.com/schafele) for this service).
+If you want to provide us further feedback, you can do it anonymously via [WebEngDUS @ Constructeev](https://constructeev.com/webengdus) (thanks to [Wolfgang](https://twitter.com/schafele) for this service).

@@ -19,12 +19,12 @@ This article is about which resources I used to learn Go.
 <!--more-->
 
 1. The [A Tour of Go](https://tour.golang.org/) is the best start. It provides an overview of the syntax and the features in a short way.
-2. The book [Go in Action](http://www.goinactionbook.com/) is a good recommendation to get some backgrounds, best practices, pitfalls and use-cases for language features. Even it is a MEAP this is worth to read.
+2. The book [Go in Action](https://www.goinactionbook.com/) is a good recommendation to get some backgrounds, best practices, pitfalls and use-cases for language features. Even it is a MEAP this is worth to read.
 3. The guide for golang: [Effective Go](https://golang.org/doc/effective_go.html). It describes all features with backgrounds and examples.
-4. Read foreign go code of projects like [docker](https://github.com/docker/docker), [etcd](https://github.com/coreos/etcd) or [termius](https://github.com/kelseyhightower/terminus).
+4. Read foreign go code of projects like [docker](https://github.com/docker/docker), [etcd](https://github.com/etcd-io/etcd) or [termius](https://github.com/kelseyhightower/terminus).
 
 And of course: Next to this **start your own Go project**.
-I recommend to start with it after you finished the [A Tour of Go](https://tour.golang.org/) and during reading [Go in Action](http://www.goinactionbook.com/).
+I recommend to start with it after you finished the [A Tour of Go](https://tour.golang.org/) and during reading [Go in Action](https://www.goinactionbook.com/).
 
 Some ideas for a project:
 

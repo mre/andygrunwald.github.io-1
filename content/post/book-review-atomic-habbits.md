@@ -20,7 +20,7 @@ During my last vacation, I have read [Atomic Habits: An Easy and Proven Way to B
 
 ## Why did I read this book?
 
-I found James Clear via [Issue #333 of the Software Lead Weekly](http://softwareleadweekly.com/issues/333) Newsletter with his article on [The 3 Stages of Failure in Life and Work (And How to Fix Them)](https://jamesclear.com/3-stages-of-failure) (a great one!). His other [articles](https://jamesclear.com/articles) also caught my interest. 
+I found James Clear via [Issue #333 of the Software Lead Weekly](https://softwareleadweekly.com/issues/333) Newsletter with his article on [The 3 Stages of Failure in Life and Work (And How to Fix Them)](https://jamesclear.com/3-stages-of-failure) (a great one!). His other [articles](https://jamesclear.com/articles) also caught my interest.
 
 Furthermore, I always had a high interest in the topic of productivity, time management, and getting better as yesterday (whatever this means). I like to learn (nearly everything), to know the context and why we are doing it what we are doing. Good habits can help you with all of this. Maybe there are some new tricks in this book I never heard?
 
@@ -29,7 +29,7 @@ Furthermore, I always had a high interest in the topic of productivity, time man
 **Content**: What James presents is enjoyable, actionable, and easy to follow. He provides a simple and proven four-step-framework on how to establish new habits. Underlined with thousands of good examples from real life. By doing this, he doesn't hide the hard reality and mentions areas like how hard it is to stick to your habits and how he overcomes this. It will provide you new perspectives. Promised!
 
 > _Maybe if you **really** wanted it, you'd actually do it. But the truth is, our real motivation is to be lazy and to do what is convenient. And despite what the latest productivity best seller will tell you, this is a smart strategy, not a dumb one._
-> 
+>
 > \- [James Clear](https://twitter.com/JamesClear) in _Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones_
 
 **James is not perfect**: He has spent _some_ time diving into the theory of habits (no doubt!), but he still keeps realistic. James is mentioning that _it is inevitable that life will interrupt you [and your habits] at some point_ (even for him). It emphasizes the feeling that this is normal and human. I like it.
@@ -37,7 +37,7 @@ Furthermore, I always had a high interest in the topic of productivity, time man
 **Reality**: I especially like how James points out the hard truth of our lives: _Habits can get automatic and boring at some time_; _If you really want something, you do it. Otherwise, you don't want it enough_; _We still need to act on it_. He doesn't try to hide it.
 
 > _**Your actions reveal how badly you want something**. If you keep saying something is a priority but you never act on it, then you don't really want it. It's time to have an honest conversation with yourself. Your actions reveal your true motivations._
-> 
+>
 > \- [James Clear](https://twitter.com/JamesClear) in _Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones_
 
 **Side Stories**: A lot of chapters start with small real-life
@@ -48,7 +48,7 @@ Stories about how people have benefitted from little habits (e.g., how [Jerry Se
 **"Academic" notes**: At the end of the book, there are 25(!) pages of references incl. Links, books, and [doi's](https://en.wikipedia.org/wiki/Digital_object_identifier). Those enable you to dive deeper into every area mentioned as in an academic report.
 
 > _[Establishing a habbit] is a continuous process. There is no finish line. There is no permanent solution._
-> 
+>
 > \- [James Clear](https://twitter.com/JamesClear) in _Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones_
 
 **Chapter Summaries**: Every chapter ends with a few key sentences. When you have finished this chapter, what should you keep in your mind? I find those useful and pleasant to look at later (e.g., in a reference style).
@@ -72,7 +72,7 @@ If you are not sure about this for yourself, start with [James Interview at _CBS
 
 I recommend this book to everyone who ...
 
-- has an interested in getting better each day 
+- has an interested in getting better each day
 - wants to reach a goal but don't know how to start
 - loves getting context on why humans are behaving like they do when it comes to habits
 

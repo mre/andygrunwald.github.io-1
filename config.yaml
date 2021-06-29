@@ -43,7 +43,7 @@ params:
   description: "Andy Grunwald - Software Engineer and Engineering Culture"
   keywords: "backend, infrastructure, scalability, operations, devops, web development, web engineering, engineering culture"
   copyright: "Andy Grunwald"
-  headerText: "Hi, my name is **Andy Grunwald**, a Software Engineer with a focus on **Backend, Infrastructure, and Culture**. I work at [trivago](https://www.trivago.com/) and run the [Web Engineering DUS Meetup](https://www.meetup.com/Web-Engineering-Duesseldorf/)."
+  headerText: "Hi, my name is **Andy Grunwald**, a Software Engineer with a focus on **Backend, Infrastructure, and Engineering Culture**. I work at [trivago](https://www.trivago.com/) and run the [Web Engineering DUS Meetup](https://www.meetup.com/Web-Engineering-Duesseldorf/)."
   avatar: "img/avatar.png"
   social:
     rss: true

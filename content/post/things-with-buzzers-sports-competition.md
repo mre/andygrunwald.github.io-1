@@ -15,7 +15,7 @@ images = ["/img/posts/things-with-buzzers-sports-competition/scoreboard.png"]
 
 {{< figure src="/img/posts/things-with-buzzers-sports-competition/scoreboard.png" alt="things with buzzers: The sports competition frontend." caption="things with buzzers: The sports competition frontend.">}}
 
-> If you like this article, you might want to read [things with buzzers: building them](/blog/things-with-buzzers-building-them) and [things with buzzers: playing Jeopardy!](/blog/things-with-buzzers-playing-jeopardy/) also.
+> If you like this article, you might want to read [things with buzzers: building them](/blog/things-with-buzzers-building-them/) and [things with buzzers: playing Jeopardy!](/blog/things-with-buzzers-playing-jeopardy/) also.
 
 ## things with buzzers
 

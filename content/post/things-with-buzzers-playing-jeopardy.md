@@ -16,7 +16,7 @@ Start playing today, and have an awesome time!
 
 {{< figure src="/img/posts/things-with-buzzers-playing-jeopardy/jeopardy-frontend-board.png" alt="things with buzzers: The Jeopardy! frontend game board." caption="things with buzzers: The Jeopardy! frontend game board.">}}
 
-> If you like this article, you might want to read [things with buzzers: building them](/blog/things-with-buzzers-building-them) and [things with buzzers: a sports competition](/blog/things-with-buzzers-a-sports-competition/) also.
+> If you like this article, you might want to read [things with buzzers: building them](/blog/things-with-buzzers-building-them/) and [things with buzzers: a sports competition](/blog/things-with-buzzers-a-sports-competition/) also.
 
 ## things with buzzers
 

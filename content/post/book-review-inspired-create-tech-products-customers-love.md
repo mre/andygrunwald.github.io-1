@@ -27,7 +27,7 @@ Finally, I want to know what challenges my colleagues are facing daily to unders
 
 ## What do I like about this book?
 
-**Content**: _INSPIRED_ provides an excellent overview of the role of a Product Manager. It explains why this role is so important and what makes a good Product Manager. Furthermore, Marty presents essential pieces like getting the right people on board, a good vision plus strategy, and finally planning-, ideation-, prototyping-, and testing techniques. For more content related reviews, checkout the one by [Marc Abraham](https://medium.com/@maa1/book-review-inspired-how-to-create-tech-products-customers-love-4fc8e8f26739) or [Damon Allison](https://medium.com/@damonallison/inspired-how-to-create-tech-products-customers-love-a-book-review-513603a8a533).
+**Content**: _INSPIRED_ provides an excellent overview of the role of a Product Manager. It explains why this role is so important and what makes a good Product Manager. Furthermore, Marty presents essential pieces like getting the right people on board, a good vision plus strategy, and finally planning-, ideation-, prototyping-, and testing techniques. For more content related reviews, checkout the one by [Marc Abraham](https://maa1.medium.com/book-review-inspired-how-to-create-tech-products-customers-love-4fc8e8f26739) or [Damon Allison](https://medium.com/@damonallison/inspired-how-to-create-tech-products-customers-love-a-book-review-513603a8a533).
 
 > _The difference between [Product] vision and strategy is analogous to the difference between good leadership and good management. Leadership inspires and sets the direction, and management helps get us there. Most important, the product vision should be inspiring, and the product strategy should be focused._
 >

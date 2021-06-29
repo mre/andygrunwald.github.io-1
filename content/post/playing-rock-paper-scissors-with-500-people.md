@@ -128,5 +128,5 @@ They deserve a vast **Thank you** for this:
 
 #### Icons
 
-- Thanks to [Cristiano Zoucas](https://thenounproject.com/cristiano.zoucas) for the icons [Fist](https://thenounproject.com/term/fist/477918/), [Hand](https://thenounproject.com/term/hand/477922/) and [Scissors](https://thenounproject.com/term/scissors/477919/)
+- Thanks to [Cristiano Zoucas](https://thenounproject.com/cristiano.zoucas/) for the icons [Fist](https://thenounproject.com/term/fist/477918/), [Hand](https://thenounproject.com/term/hand/477922/) and [Scissors](https://thenounproject.com/term/scissors/477919/)
 - Thanks to [Danil Polshin](https://thenounproject.com/everydaytemplate/) for his [People2 collection](https://thenounproject.com/everydaytemplate/collection/people2/)

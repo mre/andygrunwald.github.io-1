@@ -1,9 +1,19 @@
 <head>
-	<title>{{ .Title}}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
+	{{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false) }}
+	{{ if .IsHome }}
+		{{ if eq $paginator.PageNumber 1 }}
+			<title>{{ .Title }}</title>
+		{{ else }}
+			<title>{{ .Title }} | Page {{ $paginator.PageNumber }}</title>
+		{{ end }}
+	{{ else }}
+		<title>{{ .Title }} | {{ .Site.Title }}</title>
+	{{ end}}
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 	{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 
 	{{ template "_internal/opengraph.html" . }}

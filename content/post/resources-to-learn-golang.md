@@ -6,6 +6,7 @@ featureimage = ""
 menu = ""
 tags = ["language", "Google", "golang"]
 title = "Resources to learn Go(lang)"
+description = "If you want to learn Go(lang) and don't know where to start, here is a list of five resources on how I learned Go(lang) in a short amount of time."
 aliases = [
     "/blog/2015/06/20/resources-to-learn-golang/"
 ]

@@ -6,6 +6,9 @@ featureimage = ""
 menu = ""
 tags = ["language", "Google", "golang"]
 title = "Resources to learn Go(lang)"
+aliases = [
+    "/blog/2015/06/20/resources-to-learn-golang/"
+]
 +++
 
 Since some time I am fascinated by the [go programing language](https://golang.org/) launched by Google in 2009.

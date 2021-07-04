@@ -21,9 +21,9 @@ url = "/blog/a-review-on-atomic-habits-an-easy-and-proven-way-to-build-good-habi
 menu = ""
 +++
 
-During my last vacation, I have read [Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](https://www.amazon.de/gp/product/1847941834/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=471c72778cb9d5d193f5d00b2e761988) by [James Clear](https://twitter.com/JamesClear). Here is what I think about this book.
+During my last vacation, I have read [Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](https://www.amazon.de/gp/product/1847941834/ref=as_li_tl?ie=UTF8&tag=andygrunwal0a-21&camp=1638&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=655500f09dc93b189f346505fad8f425) by [James Clear](https://twitter.com/JamesClear). Here is what I think about this book.
 
-**tl;dr**: Good book about moving towards your goals with (very) small steps. Various insights into real-life stories, new perspectives, and practical tips on how to destroy bad or establish new habits. Recommended if you like [James articles](https://jamesclear.com/articles) and his style. The book is full of this: [Go, buy, and read it](https://www.amazon.de/gp/product/1847941834/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=471c72778cb9d5d193f5d00b2e761988).
+**tl;dr**: Good book about moving towards your goals with (very) small steps. Various insights into real-life stories, new perspectives, and practical tips on how to destroy bad or establish new habits. Recommended if you like [James articles](https://jamesclear.com/articles) and his style. The book is full of this: [Go, buy, and read it](https://www.amazon.de/gp/product/1847941834/ref=as_li_tl?ie=UTF8&tag=andygrunwal0a-21&camp=1638&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=655500f09dc93b189f346505fad8f425).
 
 <!--more-->
 
@@ -95,4 +95,4 @@ Yes, of course (PS: this list will never be complete):
 - The articles [by James Clear on his website](https://jamesclear.com/articles)
 - The [Flow State](https://en.wikipedia.org/wiki/Flow_(psychology))
 - The article [trivago Flow Lab: The Science of Productivity](https://life.trivago.com/happenings/trivago-flow-lab-science-productivity.html) by Sören, Kirill and Philipp
-- The book [Getting Things Done: The Art of Stress-Free Productivity](https://www.amazon.de/gp/product/0143126563/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=0143126563&linkId=b3cff757f64e7b56a9a3100148ab956b) by David Allen
+- The book [Getting Things Done: The Art of Stress-Free Productivity](https://www.amazon.de/gp/product/0349423148/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0349423148&linkId=7f8a8df0a289934006cc8845d24c37e9) by David Allen

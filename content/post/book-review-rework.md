@@ -20,10 +20,10 @@ featureimage = ""
 menu = ""
 +++
 
-During my last vacation, I have read [REWORK](https://www.amazon.de/gp/product/0307463745/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=0307463745&linkId=b8c1d36cdf3f99dc4923caf36f027b40) by
+During my last vacation, I have read [REWORK](https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca) by
 [Jason Fried](https://twitter.com/jasonfried) and [David Heinemeier Hansson](https://twitter.com/dhh) (both founder of [Basecamp](https://basecamp.com/)). Here is what I think about this book.
 
-**tl;dr**: Holy shit. _THIS_. _THIS_. And a thousand times _THIS_. I love the pragmatism and _lets move_ attitude combined with a provoking writing style. It reminds you how to apply culture and kicks you out of the corporate hamster wheel full of processes and clutter. A book you should read every year. [Go, buy, and read it](https://www.amazon.de/gp/product/0307463745/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=0307463745&linkId=b8c1d36cdf3f99dc4923caf36f027b40)!
+**tl;dr**: Holy shit. _THIS_. _THIS_. And a thousand times _THIS_. I love the pragmatism and _lets move_ attitude combined with a provoking writing style. It reminds you how to apply culture and kicks you out of the corporate hamster wheel full of processes and clutter. A book you should read every year. [Go, buy, and read it](https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca)!
 
 <!--more-->
 
@@ -97,6 +97,6 @@ Yes, of course (PS: this list will never be complete):
 
 - The [Signal v. Noise blog](https://m.signalvnoise.com/) from Basecamp + friends
 - The [Basecamp Employee Handbook](https://github.com/basecamp/handbook)
-- The book [It Doesn't Have to Be Crazy at Work](https://www.amazon.de/gp/product/0062874780/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=0062874780&linkId=4f16f482436c98dd456d9c069ca9c1d3) by David and Jason
+- The book [It Doesn't Have to Be Crazy at Work](https://www.amazon.de/gp/product/0008323445/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0008323445&linkId=5cd6e9a0b3a23d4d3357661d074234b0) by David and Jason
 - [Ask HN: Companies with a culture similar to Basecamp's?](https://news.ycombinator.com/item?id=16015715)
 - Twitter accounts of [Jason Fried](https://twitter.com/jasonfried) and [David Heinemeier Hansson](https://twitter.com/dhh)

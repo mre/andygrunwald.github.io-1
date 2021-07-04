@@ -1,9 +1,16 @@
 +++
 draft = true
+
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = {{ .Date }}
+description = ""
+images = []
+keywords = []
 tags = []
 categories = []
+
+date = {{ .Date }}
+lastmod = {{ .Date }}
+
 featureimage = ""
 menu = ""
 +++

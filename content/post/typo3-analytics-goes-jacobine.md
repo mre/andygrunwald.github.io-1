@@ -1,11 +1,29 @@
 +++
-categories = ["Jacobine", "Open Source"]
-date = "2014-04-22T12:45:13+02:00"
 draft = false
+
+title = "TYPO3-Analytics goes Jacobine"
+description = ""
+images = []
+keywords = []
+tags = [
+    "analytics",
+    "development",
+    "Jacobine",
+    "metrics",
+    "open source",
+    "software repository mining",
+    "typo3"
+]
+categories = [
+    "Jacobine",
+    "Open Source"
+]
+
+date = "2014-04-22T12:45:13+02:00"
+lastmod = "2014-04-22T12:45:13+02:00"
+
 featureimage = ""
 menu = ""
-tags = ["analytics", "development", "Jacobine", "metrics", "open source", "software repository mining", "typo3"]
-title = "TYPO3-Analytics goes Jacobine"
 +++
 
 For quite some time I was looking for a new name for an open source project of mine: *TYPO3-Analytics*.

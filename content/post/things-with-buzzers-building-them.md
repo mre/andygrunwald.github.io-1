@@ -1,12 +1,25 @@
 +++
 draft = false
+
 title = "things with buzzers: building them"
+description = ""
+images = ["/img/posts/things-with-buzzers-building-them/buzzers-raspberrypi.jpg"]
+keywords = []
+tags = [
+    "things-with-buzzers",
+    "hardware",
+    "diy"
+]
+categories = [
+    "Community",
+    "things with buzzers"
+]
+
 date = 2019-11-01T12:00:00+01:00
-tags = ["things-with-buzzers", "hardware", "diy"]
-categories = ["Community", "things with buzzers"]
+lastmod = 2019-11-01T12:00:00+01:00
+
 featureimage = ""
 menu = ""
-images = ["/img/posts/things-with-buzzers-building-them/buzzers-raspberrypi.jpg"]
 +++
 
 **tl;dr**: We built custom game show buzzers, wrote a WebSocket server, and connected them to various applications.

@@ -1,13 +1,30 @@
 +++
-categories = ["Programming", "Go"]
-date = "2015-06-20T10:42:38+02:00"
 draft = false
-featureimage = ""
-menu = ""
-tags = ["language", "Google", "golang"]
+
 title = "Resources to learn Go(lang)"
 description = "If you want to learn Go(lang) and don't know where to start, here is a list of five resources on how I learned Go(lang) in a short amount of time."
-keywords = ["Programming", "Go", "Golang", "Google"]
+images = []
+keywords = [
+    "Programming",
+    "Go",
+    "Golang",
+    "Google"
+]
+tags = [
+    "language",
+    "Google",
+    "golang"
+]
+categories = [
+    "Programming",
+    "Go"
+]
+
+date = "2015-06-20T10:42:38+02:00"
+lastmod = "2015-06-20T10:42:38+02:00"
+
+featureimage = ""
+menu = ""
 aliases = [
     "/blog/2015/06/20/resources-to-learn-golang/"
 ]

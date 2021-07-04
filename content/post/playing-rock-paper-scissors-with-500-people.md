@@ -1,12 +1,26 @@
 +++
 draft = false
+
 title = "Playing Rock–Paper–Scissors with 500 people"
+description = ""
+images = ["/img/posts/playing-rock-paper-scissors-with-500-people/game-play.png"]
+keywords = []
+tags = [
+    "rock-paper-scissors",
+    "conference",
+    "event",
+    "game"
+]
+categories = [
+    "Community",
+    "lessons learned"
+]
+
 date = 2019-08-22T16:00:00+02:00
-tags = ["rock-paper-scissors", "conference", "event", "game"]
-categories = ["Community", "lessons learned"]
+lastmod = 2019-08-22T16:00:00+02:00
+
 featureimage = ""
 menu = ""
-images = ["/img/posts/playing-rock-paper-scissors-with-500-people/game-play.png"]
 +++
 
 **tl;dr**: We played Rock–Paper–Scissors with 500 people in ~06:40 minutes to kick off a tech conference. It was a well-received energizer game and provided a lot of fun to all attendees.

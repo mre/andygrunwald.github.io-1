@@ -1,11 +1,29 @@
 +++
-categories = ["Jacobine", "Open Source"]
-date = "2014-02-15T13:10:00+02:00"
 draft = false
+
+title = "TYPO3-Analytics: Release of version v0.0.1"
+description = ""
+images = []
+keywords = []
+tags = [
+    "analytics",
+    "development",
+    "Jacobine",
+    "metrics",
+    "open source",
+    "software repository mining",
+    "typo3"
+]
+categories = [
+    "Jacobine",
+    "Open Source"
+]
+
+date = "2014-02-15T13:10:00+02:00"
+lastmod = "2014-02-15T13:10:00+02:00"
+
 featureimage = ""
 menu = ""
-tags = ["analytics", "development", "Jacobine", "metrics", "open source", "software repository mining", "typo3"]
-title = "TYPO3-Analytics: Release of version v0.0.1"
 +++
 
 Today i tagged and released version [v0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1) of the project [TYPO3-Analytics](https://github.com/andygrunwald/Jacobine).

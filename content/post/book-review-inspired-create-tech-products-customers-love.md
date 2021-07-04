@@ -1,12 +1,24 @@
 +++
 draft = false
+
 title = "A review on \"INSPIRED: How to Create Tech Products Customers Love\""
-date = 2019-06-30T13:00:00+02:00
-tags = ["Product management", "Inpired", "Product", "Book"]
+description = ""
+
+images = ["/img/posts/book-review-inspired-create-tech-products-customers-love/book-inpired-beach.jpg"]
+keywords = []
+tags = [
+    "Product management",
+    "Inpired",
+    "Product",
+    "Book"
+]
 categories = ["Book Review"]
+
+date = 2019-06-30T13:00:00+02:00
+lastmod = 2019-06-30T13:00:00+02:00
+
 featureimage = ""
 menu = ""
-images = ["/img/posts/book-review-inspired-create-tech-products-customers-love/book-inpired-beach.jpg"]
 +++
 
 During my last vacation, i have read [INSPIRED: How to Create Tech Products Customers Love](https://www.amazon.de/gp/product/1119387507/ref=as_li_tl?ie=UTF8&tag=andygrunwald-21&camp=1638&creative=6742&linkCode=as2&creativeASIN=1119387507&linkId=127c087ce3ba46968814124f1842d36f) by [Marty Cagan](https://twitter.com/cagan). Here is what I think about this book.

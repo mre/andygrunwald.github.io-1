@@ -1,11 +1,29 @@
 +++
-categories = ["Jacobine", "Open Source"]
-date = "2014-04-19T12:51:03+02:00"
 draft = false
+
+title = "TYPO3-Analytics: Release of version v0.1.0"
+description = ""
+images = []
+keywords = []
+tags = [
+    "analytics",
+    "development",
+    "Jacobine",
+    "metrics",
+    "open source",
+    "software repository mining",
+    "typo3"
+]
+categories = [
+    "Jacobine",
+    "Open Source"
+]
+
+date = "2014-04-19T12:51:03+02:00"
+lastmod = "2014-04-19T12:51:03+02:00"
+
 featureimage = ""
 menu = ""
-tags = ["analytics", "development", "Jacobine", "metrics", "open source", "software repository mining", "typo3"]
-title = "TYPO3-Analytics: Release of version v0.1.0"
 +++
 
 The project grows and grows :)

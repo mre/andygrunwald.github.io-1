@@ -1,13 +1,33 @@
 +++
-categories = ["meetups", "lessons learned"]
-date = "2016-10-25T12:15:00+02:00"
 draft = false
+
+title = "Lessons learned from running a local meetup"
+description = ""
+images = []
+keywords = []
+tags = [
+	"meetup",
+	"usergroup",
+	"webengdus",
+	"Web Engineering Düsseldorf",
+	"phpugdus",
+	"PHP Usergroup Düsseldorf",
+	"experience",
+	"lessons learned"
+]
+categories = [
+	"meetups",
+	"lessons learned"
+]
+
+date = "2016-10-25T12:15:00+02:00"
+lastmod = "2016-10-25T12:15:00+02:00"
+
 featureimage = "img/posts/lesson-learned-from-running-a-meetup/meetup-october-2013-tobias-schlitt.jpeg"
 titleshadow = true
-menu = ""
-tags = ["meetup", "usergroup", "webengdus", "Web Engineering Düsseldorf", "phpugdus", "PHP Usergroup Düsseldorf", "experience", "lessons learned"]
-title = "Lessons learned from running a local meetup"
 url = "/blog/lesson-learned-from-running-a-local-meetup/"
+menu = ""
+
 +++
 
 I have been organizing the [PHP Usergroup Duesseldorf](https://www.meetup.com/PHP-Usergroup-Duesseldorf/) for about four years now.

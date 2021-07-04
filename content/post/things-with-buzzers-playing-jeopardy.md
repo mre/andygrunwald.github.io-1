@@ -1,12 +1,26 @@
 +++
 draft = false
+
 title = "things with buzzers: playing Jeopardy!"
+description = ""
+images = ["/img/posts/things-with-buzzers-playing-jeopardy/jeopardy-frontend-board.png"]
+keywords = []
+tags = [
+    "things-with-buzzers",
+    "frontend",
+    "diy",
+    "game"
+]
+categories = [
+    "Community",
+    "things with buzzers"
+]
+
 date = 2019-11-01T15:00:00+01:00
-tags = ["things-with-buzzers", "frontend", "diy", "game"]
-categories = ["Community", "things with buzzers"]
+lastmod = 2019-11-01T15:00:00+01:00
+
 featureimage = ""
 menu = ""
-images = ["/img/posts/things-with-buzzers-playing-jeopardy/jeopardy-frontend-board.png"]
 +++
 
 **tl;dr**: For the _[**things with-buzzers** series](https://github.com/andygrunwald/things-with-buzzers-hardware)_ we have integrated a Jeopardy! Game show frontend to have a good time with friends. Check it out at _[things with buzzers: Jeopardy!](https://github.com/andygrunwald/things-with-buzzers-jeopardy)_.

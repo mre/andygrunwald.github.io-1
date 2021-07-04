@@ -1,9 +1,24 @@
 +++
 draft = false
+
 title = "Web Engineering DUS: Feedback wall in May meetup"
-date = 2018-05-18T15:53:01+02:00
-tags = ["meetup", "usergroup", "webengdus", "Web Engineering Düsseldorf", "phpugdus", "PHP Usergroup Düsseldorf", "feedback"]
+description = ""
+images = []
+keywords = []
+tags = [
+    "meetup",
+    "usergroup",
+    "webengdus",
+    "Web Engineering Düsseldorf",
+    "phpugdus",
+    "PHP Usergroup Düsseldorf",
+    "feedback"
+]
 categories = ["meetups"]
+
+date = 2018-05-18T15:53:01+02:00
+lastmod = 2018-05-18T15:53:01+02:00
+
 featureimage = ""
 menu = ""
 +++

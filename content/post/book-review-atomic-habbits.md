@@ -1,13 +1,24 @@
 +++
 draft = false
+
 title = "A review on \"Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones\""
-date = 2019-07-02T10:30:00+02:00
-tags = ["Habits", "Self improvement", "Human potential", "Book"]
-categories = ["Book Review"]
-featureimage = ""
-menu = ""
-url = "/blog/a-review-on-atomic-habits-an-easy-and-proven-way-to-build-good-habits-and-break-bad-ones/"
+description = ""
 images = ["/img/posts/book-review-atomic-habits-an-easy-and-proven-way-to-build-good-habits-and-break-bad-ones/book-atomic-habits-beach.jpg"]
+keywords = []
+tags = [
+    "Habits",
+    "Self improvement",
+    "Human potential",
+    "Book"
+]
+categories = ["Book Review"]
+
+date = 2019-07-02T10:30:00+02:00
+lastmod = 2019-07-02T10:30:00+02:00
+
+featureimage = ""
+url = "/blog/a-review-on-atomic-habits-an-easy-and-proven-way-to-build-good-habits-and-break-bad-ones/"
+menu = ""
 +++
 
 During my last vacation, I have read [Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones](https://www.amazon.de/gp/product/1847941834/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwald-21&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=471c72778cb9d5d193f5d00b2e761988) by [James Clear](https://twitter.com/JamesClear). Here is what I think about this book.

@@ -1,11 +1,30 @@
 +++
-categories = ["Conferences", "Open Source"]
-date = "2014-03-21T13:01:50+02:00"
 draft = false
+
+title = "The story about the topic of my bachelor thesis"
+description = ""
+images = []
+keywords = []
+tags = [
+    "bachelor of science",
+    "community",
+    "cvsanaly",
+    "fosdem",
+    "Jacobine",
+    "open source",
+    "python",
+    "software repository mining"
+]
+categories = [
+    "Conferences",
+    "Open Source"
+]
+
+date = "2014-03-21T13:01:50+02:00"
+lastmod = "2014-03-21T13:01:50+02:00"
+
 featureimage = ""
 menu = ""
-tags = ["bachelor of science", "community", "cvsanaly", "fosdem", "Jacobine", "open source", "python", "software repository mining"]
-title = "The story about the topic of my bachelor thesis"
 +++
 
 This post is about my bachelor thesis, a conference, cool people from Spain, some academic paper, a lot of open source and how it can be if you let the flow runs :)

@@ -1,11 +1,29 @@
 +++
-categories = ["Jacobine", "Open Source"]
-date = "2014-03-03T13:06:41+02:00"
 draft = false
+
+title = "TYPO3-Analytics is looking for a new name - suggestions welcome!"
+description = ""
+images = []
+keywords = []
+tags = [
+    "analytics",
+    "development",
+    "Jacobine",
+    "metrics",
+    "open source",
+    "software repository mining",
+    "typo3"
+]
+categories = [
+    "Jacobine",
+    "Open Source"
+]
+
+date = "2014-03-03T13:06:41+02:00"
+lastmod = "2014-03-03T13:06:41+02:00"
+
 featureimage = ""
 menu = ""
-tags = ["analytics", "development", "Jacobine", "metrics", "open source", "software repository mining", "typo3"]
-title = "TYPO3-Analytics is looking for a new name - suggestions welcome!"
 +++
 
 At [Apr 19, 2013](https://github.com/andygrunwald/Jacobine/commit/b44dd91e359ad55478919cc94278d26fffbdde03) I started [TYPO3-Analytics](https://github.com/andygrunwald/Jacobine) to create a prototype or proof of concept to make my first steps in fields data mining/software repository mining, statistics, and data visualization.

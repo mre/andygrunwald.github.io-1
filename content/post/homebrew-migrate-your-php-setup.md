@@ -1,9 +1,24 @@
 +++
 draft = false
+
 title = "Migrate your local PHP 7.2 setup to Homebrew v1.5.*"
+description = ""
+images = []
+keywords = []
+tags = [
+    "php",
+    "homebrew",
+    "macOS",
+    "environment"
+]
+categories = [
+    "PHP",
+    "Open Source"
+]
+
 date = 2018-04-10T17:14:20+02:00
-tags = ["php", "homebrew", "macOS", "environment"]
-categories = ["PHP", "Open Source"]
+lastmod = 2018-04-10T17:14:20+02:00
+
 featureimage = ""
 menu = ""
 +++

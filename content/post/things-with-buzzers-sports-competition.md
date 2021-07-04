@@ -1,12 +1,27 @@
 +++
 draft = false
+
 title = "things with buzzers: a sports competition"
+description = ""
+images = ["/img/posts/things-with-buzzers-sports-competition/scoreboard.png"]
+keywords = []
+tags = [
+    "things-with-buzzers",
+    "frontend",
+    "diy",
+    "sports",
+    "competition"
+]
+categories = [
+    "Community",
+    "things with buzzers"
+]
+
 date = 2019-11-01T17:00:00+01:00
-tags = ["things-with-buzzers", "frontend", "diy", "sports", "competition"]
-categories = ["Community", "things with buzzers"]
+lastmod = 2019-11-01T17:00:00+01:00
+
 featureimage = ""
 menu = ""
-images = ["/img/posts/things-with-buzzers-sports-competition/scoreboard.png"]
 +++
 
 **tl;dr**: For the _[**things with-buzzers** series](https://github.com/andygrunwald/things-with-buzzers-hardware)_ we created a frontend to run a sports competition at a local functional fitness gym. It stops the athlete's time and ranks them according to the fastest. It was an exceptional feeling to hit the buzzer at the end of the workout. Check it out at _[things with buzzers: sports competition](https://github.com/andygrunwald/things-with-buzzers-sports-competition)_.

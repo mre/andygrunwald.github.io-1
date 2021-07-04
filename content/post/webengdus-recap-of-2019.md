@@ -1,11 +1,26 @@
 +++
 draft = false
+
 title = "Web Engineering DUS: Recap of 2019"
-date = 2019-12-25T18:00:00+01:00
-tags = ["meetup", "usergroup", "webengdus", "Web Engineering Düsseldorf",]
-categories = ["meetups", "Community"]
-menu = ""
+description = ""
 images = ["/img/posts/webengdus-recap-of-2019/webengdus-logo-banner.png"]
+keywords = []
+tags = [
+    "meetup",
+    "usergroup",
+    "webengdus",
+    "Web Engineering Düsseldorf"
+]
+categories = [
+    "meetups",
+    "Community"
+]
+
+date = 2019-12-25T18:00:00+01:00
+lastmod = 2019-12-25T18:00:00+01:00
+
+featureimage = ""
+menu = ""
 +++
 
 **What a year for the [Web Engineering Düsseldorf Meetup](https://www.meetup.com/Web-Engineering-Duesseldorf/)!**

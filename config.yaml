@@ -38,7 +38,7 @@ related:
 
 params:
   mainSections:
-    - "post"
+  - "post"
   author: "Andy Grunwald"
   description: "Andy Grunwald - Software Engineer and Engineering Culture"
   keywords: "backend, infrastructure, scalability, operations, devops, engineering culture, web development, web engineering"

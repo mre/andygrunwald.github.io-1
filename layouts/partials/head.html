@@ -1,14 +1,5 @@
 <head>
-	{{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false) }}
-	{{ if .IsHome }}
-		{{ if eq $paginator.PageNumber 1 }}
-			<title>{{ .Title }}</title>
-		{{ else }}
-			<title>{{ .Title }} | Page {{ $paginator.PageNumber }}</title>
-		{{ end }}
-	{{ else }}
-		<title>{{ .Title }} | {{ .Site.Title }}</title>
-	{{ end}}
+	<title>{{ .Title}}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

@@ -1,5 +1,7 @@
 baseurl: "https://andygrunwald.com/"
 languageCode: "en-us"
+defaultContentLanguage: en
+disableHugoGeneratorInject: true
 title: "Andy Grunwald"
 theme: "hugo-type-theme"
 googleAnalytics: "UA-64342623-1"
@@ -19,7 +21,9 @@ privacy:
 
 SectionPagesMenu: "nav"
 
+enableEmoji: true
 enableRobotsTXT: true
+canonifyURLs: true
 
 # Syntax highlighting
 pygmentsCodeFences: true

@@ -9,6 +9,11 @@
 
 	{{ template "_internal/opengraph.html" . }}
 	{{ template "_internal/twitter_cards.html" . }}
+	<meta name="twitter:site" content="@{{ .Site.Params.social.twitter }}">
+	<meta name="twitter:creator" content="@{{ .Site.Params.social.twitter }}" />
+
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
 
 	<link rel="canonical" href="{{ .Permalink }}">
 

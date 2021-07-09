@@ -2,7 +2,7 @@
 draft = false
 
 title = "Web Engineering DUS Meetup: Recap of 2019"
-description = ""
+description = "What happened in 2019? Let us look back together and celebrate this incredible year for the Web Engineering Düsseldorf Meetup."
 images = [
     "/img/posts/webengdus-recap-of-2019/web-engineering-duesseldorf-may-peakwork-matthias-endler-zach-leatherman.png",
     "/img/posts/webengdus-recap-of-2019/web-engineering-duesseldorf-january-trivago-with-christian-schaefer.jpg",

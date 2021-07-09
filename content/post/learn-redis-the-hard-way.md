@@ -3,7 +3,7 @@ draft = false
 
 title = "Learn Redis the hard way (in production) @ trivago techblog"
 description = "A story about how we learned to overcome pitfalls from redis in production at trivago. Including various lessons learned."
-images = []
+images = ["/img/posts/learn-redis-the-hard-way/redis-logo.jpg"]
 keywords = [
     "redis",
     "database",
@@ -12,6 +12,8 @@ keywords = [
     "lessons learned",
     "scaling",
     "trivago",
+    "backend",
+    "devops",
 ]
 tags = [
     "database",
@@ -25,7 +27,8 @@ categories = [
 date = "2017-03-12T15:06:16+01:00"
 lastmod = "2021-07-09T15:06:16+01:00"
 
-featureimage = ""
+featureimage = "/img/posts/learn-redis-the-hard-way/redis-logo.jpg"
+titleshadow = true
 menu = ""
 +++
 

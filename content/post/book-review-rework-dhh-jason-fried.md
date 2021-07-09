@@ -37,7 +37,7 @@ _THIS_. _THIS_. And thousand times _THIS_.
 I love the pragmatism and _ let's move_ attitude combined with a provoking writing style.
 It reminds you how to apply culture and kicks you out of the corporate hamster wheel full of processes and clutter.
 A book you should read every year.
-[Go, buy, and read it](https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca)!
+[Go, buy, and read it](https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca "Rework by David Heinemeier Hansson and Jason Fried at Amazon")!
 
 <!--more-->
 
@@ -50,13 +50,13 @@ A book you should read every year.
 
 > _The problem with [...] copying is it skips understanding - and understanding is how you grow. You have to understand why something works or why sometimes is the way it is._
 >
-> \- [Jason](https://twitter.com/jasonfried) and [David](https://twitter.com/dhh) in _REWORK_ (from the chapter _Don't copy_)
+> \- [Jason](https://twitter.com/jasonfried "Jason Fried on twitter") and [David](https://twitter.com/dhh "David Heinemeier Hansson on twitter") in _REWORK_ (from the chapter _Don't copy_)
 
 ## Why did I read this book?
 
-[Basecamp](https://basecamp.com/) ([former 37signals](https://37signals.com/)) is known for their unique work culture and their pragmatic thinking.
+[Basecamp](https://basecamp.com/ "Basecamps website") ([former 37signals](https://37signals.com/ "37signals website")) is known for their unique work culture and their pragmatic thinking.
 I only heard good things about them.
-They have a high reputation in the engineering community ([David invented Ruby on Rails](https://en.wikipedia.org/wiki/Ruby_on_Rails)).
+They have a high reputation in the engineering community ([David invented Ruby on Rails](https://en.wikipedia.org/wiki/Ruby_on_Rails "Ruby on Rails at Wikipedia")).
 They have created a small, sustainable, and steady business.
 They don't want to scale or grow.
 They seem not to have the goal of being the next unicorn.
@@ -72,7 +72,7 @@ I love it because you don't have to guess what they mean or reading between the 
 
 > _Great companies start in garages all the time. Yours can too._
 >
-> \- [Jason](https://twitter.com/jasonfried) and [David](https://twitter.com/dhh) in _REWORK_ (from the chapter _You need less than you think_)
+> \- [Jason](https://twitter.com/jasonfried "Jason Fried on twitter") and [David](https://twitter.com/dhh "David Heinemeier Hansson on twitter") in _REWORK_ (from the chapter _You need less than you think_)
 
 **Small chapter**: Every section is tiny and rarely exceeds three pages.
 This makes it a quick read, and you can stop and start everywhere.
@@ -84,7 +84,7 @@ They ask the right questions like _Why do we need to grow? Only because a startu
 
 > _So let's replace the fancy-sounding word with something a bit more down-to-earth. Instead of entrepreneurs, let's call them starters._
 >
-> \- [Jason](https://twitter.com/jasonfried) and [David](https://twitter.com/dhh) in _REWORK_ (from the chapter _Enough with "entrepreneurs"_)
+> \- [Jason](https://twitter.com/jasonfried "Jason Fried on twitter") and [David](https://twitter.com/dhh "David Heinemeier Hansson on twitter") in _REWORK_ (from the chapter _Enough with "entrepreneurs"_)
 
 ** opposite of your best practices**: There are a thousand books about best practices on
 - how to hire
@@ -113,7 +113,7 @@ Maybe to focus on this is already wrong, and you need to establish this as a [ne
 
 > _Anyone who takes a "we'll figure out how to profit in the future" attitude to business is being ridiculous. That's like building a rocket ship but starting off by saying, "Let's pretend gravity doesn't exist.". A business without a path to profit isn't a business; it's a hobby._
 >
-> \- [Jason](https://twitter.com/jasonfried) and [David](https://twitter.com/dhh) in _REWORK_ (from the chapter _Start a business, not a startup_)
+> \- [Jason](https://twitter.com/jasonfried "Jason Fried on twitter") and [David](https://twitter.com/dhh "David Heinemeier Hansson on twitter") in _REWORK_ (from the chapter _Start a business, not a startup_)
 
 ## Would I recommend reading this book?
 
@@ -135,7 +135,7 @@ This book represents those principles by their pragmatic thinking.
 
 > _When something becomes too polished, it loses its soul. It seems robotic. So talk like you really talk. Reveal things that others are unwilling to discuss. Be upfront about your shortcomings. Show the latest version of what you're working on, even if you're not done yet._
 >
-> \- [Jason](https://twitter.com/jasonfried) and [David](https://twitter.com/dhh) in _REWORK_ (from the chapter _Nobody likes plastic flowers_)
+> \- [Jason](https://twitter.com/jasonfried "Jason Fried on twitter") and [David](https://twitter.com/dhh "David Heinemeier Hansson on twitter") in _REWORK_ (from the chapter _Nobody likes plastic flowers_)
 
 I recommend this book to everyone who ...
 
@@ -147,8 +147,8 @@ I recommend this book to everyone who ...
 
 Yes, of course:
 
-- The [Signal v. Noise blog](https://m.signalvnoise.com/) from Basecamp + friends
-- The [Basecamp Employee Handbook](https://github.com/basecamp/handbook)
-- The book [It Doesn't Have to Be Crazy at Work](https://www.amazon.de/gp/product/0008323445/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0008323445&linkId=5cd6e9a0b3a23d4d3357661d074234b0) by David and Jason
-- [Ask HN: Companies with a culture similar to Basecamp's?](https://news.ycombinator.com/item?id=16015715)
-- Twitter accounts of [Jason Fried](https://twitter.com/jasonfried) and [David Heinemeier Hansson](https://twitter.com/dhh)
+- The [Signal v. Noise blog](https://m.signalvnoise.com/ "The Signal v. Noise blog") from Basecamp + friends
+- The [Basecamp Employee Handbook](https://github.com/basecamp/handbook "The Basecamp Employee Handbook")
+- The book [It Doesn't Have to Be Crazy at Work](https://www.amazon.de/gp/product/0008323445/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0008323445&linkId=5cd6e9a0b3a23d4d3357661d074234b0 "The book It Doesn't Have to Be Crazy at Work at Amazon") by David and Jason
+- [Ask HN: Companies with a culture similar to Basecamp's?](https://news.ycombinator.com/item?id=16015715 "HackerNews discussion about Companies with a culture similar to Basecamp's")
+- Twitter accounts of [Jason Fried](https://twitter.com/jasonfried "Jason Fried on twitter") and [David Heinemeier Hansson](https://twitter.com/dhh "David Heinemeier Hansson on twitter")

@@ -32,7 +32,7 @@ aliases = [
 
 **tl;dr**: It is excellent!
 Highly recommended, especially if you are working in the tech/internet industry, want to develop your product further, or get insights into this complex role of Product Management.
-[Go, buy, and read it](https://www.amazon.de/gp/product/1119387507/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1119387507&linkId=c71747eb1964d1a11f6227aff3c06356)!
+[Go, buy, and read it](https://www.amazon.de/gp/product/1119387507/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1119387507&linkId=c71747eb1964d1a11f6227aff3c06356 "Inspired by Marty Cagan at Amazon")!
 
 <!--more-->
 
@@ -45,8 +45,8 @@ Highly recommended, especially if you are working in the tech/internet industry,
 
 ## Why did I read this book?
 
-The role of [Product Management](https://en.wikipedia.org/wiki/Product_management) was vague for me for a long time.
-There is no apprenticeship or formal schooling around this profession ([they are now upcoming](https://code.berlin/en/study/product-management/)).
+The role of [Product Management](https://en.wikipedia.org/wiki/Product_management "Product Management at Wikipedia") was vague for me for a long time.
+There is no apprenticeship or formal schooling around this profession ([they are now upcoming](https://code.berlin/en/study/product-management/ "Bachelor of Arts in Product Management at CODE university")).
 However, during my day-to-day job, I saw successful people in what they are doing while executing the role as a Product Manager, and some are not.
 I was never able to say what differs.
 
@@ -59,11 +59,11 @@ Finally, I want to know what challenges my colleagues are facing daily to unders
 **Content**: _INSPIRED_ provides an excellent overview of the role of a Product Manager.
 It explains why this role is so important and what makes a good Product Manager.
 Furthermore, Marty presents essential pieces like getting the right people on board, a good vision plus strategy, and finally planning-, ideation-, prototyping-, and testing techniques.
-For more content-related reviews, check out the one by [Marc Abraham](https://maa1.medium.com/book-review-inspired-how-to-create-tech-products-customers-love-4fc8e8f26739) or [Damon Allison](https://medium.com/@damonallison/inspired-how-to-create-tech-products-customers-love-a-book-review-513603a8a533).
+For more content-related reviews, check out the one by [Marc Abraham](https://maa1.medium.com/book-review-inspired-how-to-create-tech-products-customers-love-4fc8e8f26739 "Book review on Inspired by Marc Abraham") or [Damon Allison](https://medium.com/@damonallison/inspired-how-to-create-tech-products-customers-love-a-book-review-513603a8a533 "Book review on Inspired by Damon Allison").
 
 > _The difference between [Product] vision and strategy is analogous to the difference between good leadership and good management. Leadership inspires and sets the direction, and management helps get us there. Most important, the product vision should be inspiring, and the product strategy should be focused._
 >
-> \- [Marty Cagan](https://twitter.com/cagan) in _INSPIRED: How to Create Tech Products Customers Love_
+> \- [Marty Cagan](https://twitter.com/cagan "Marty Cagan at twitter") in _INSPIRED: How to Create Tech Products Customers Love_
 
 **Hands-On**: The material is practical and delivered in a hands-on fashion.
 Nearly all of the presented techniques can put into practice directly.
@@ -80,7 +80,7 @@ You can stop and continue everywhere at every time without losing track.
 
 > _We need teams of missionaries, not teams of mercenaries._
 >
-> \- [Marty Cagan](https://twitter.com/cagan) in _INSPIRED: How to Create Tech Products Customers Love_
+> \- [Marty Cagan](https://twitter.com/caganc) in _INSPIRED: How to Create Tech Products Customers Love_
 
 **Writing style**: This book can be read from cover to cover or in the form of a reference book.
 I like Marty's writing style because he doesn't repeat the same sentence from previous chapters, but you still get enough context about the current section to make use of it.
@@ -94,18 +94,18 @@ The methods might need to be adjusted slightly.
 
 ## What can make this book better in the next edition?
 
-**More examples**: Marty explains techniques like [Story](https://www.aha.io/roadmapping/guide/release-management/what-is-user-story-mapping) [Maps](https://medium.com/i-want-to-be-a-product-manager-when-i-grow-up/user-story-mapping-dd7462ee78cf) or [Startup Canvas](https://medium.com/@steve_mullen/an-introduction-to-lean-canvas-5c17c469d3e0), but how do they look in practice?
+**More examples**: Marty explains techniques like [Story](https://www.aha.io/roadmapping/guide/release-management/what-is-user-story-mapping "Article on What is user story mapping?") [Maps](https://medium.com/i-want-to-be-a-product-manager-when-i-grow-up/user-story-mapping-dd7462ee78cf "Article on User Story Mapping") or [Startup Canvas](https://medium.com/@steve_mullen/an-introduction-to-lean-canvas-5c17c469d3e0 "Article about An Introduction to Lean Canvas"), but how do they look in practice?
 What are typical mistakes to avoid?
-Or [Customer Letters](https://svpg.com/the-customer-letter/) are mentioned as his preferred technique over [Amazon's Working Backward](https://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management) with the press release.
+Or [Customer Letters](https://svpg.com/the-customer-letter/ "Article on The Customer Letter") are mentioned as his preferred technique over [Amazon's Working Backward](https://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management "Quora post about What is Amazon's approach to product development and product management?") with the press release.
 It might be super valuable to show an excellent customer letter, and one which is not so good (and why?).
 Maybe this is a separate book again.
 Moreover, this is left as an exercise to the reader.
 
 > _The outcome of your work is essential, not the output._
 >
-> \- [Marty Cagan](https://twitter.com/cagan) in _INSPIRED: How to Create Tech Products Customers Love_
+> \- [Marty Cagan](https://twitter.com/cagan "Marty Cagan at twitter") in _INSPIRED: How to Create Tech Products Customers Love_
 
-**Detailed case studies**: Marty has included six case studies from Senior Product Managers out of top tech companies (like [Jane Manning of Google](https://twitter.com/jinpa1345), [Lea Hickmann of Adobe](https://twitter.com/leahickman), [Alex Pressland of the BBC](https://twitter.com/presslandalex) and more).
+**Detailed case studies**: Marty has included six case studies from Senior Product Managers out of top tech companies (like [Jane Manning of Google](https://twitter.com/jinpa1345 "Jane Manning at twitter"), [Lea Hickmann of Adobe](https://twitter.com/leahickman "Lea Hickmann at twitter"), [Alex Pressland of the BBC](https://twitter.com/presslandalex "Alex Pressland at twitter") and more).
 They are pretty insightful and good reference examples, but they are also very short.
 Here, I would love to read more details about it. E.g.,
 
@@ -134,8 +134,8 @@ I recommend this book to everyone who ...
 
 Yes, of course:
 
-- [Silicon Valley Product Group](https://svpg.com/)
-- The book [The Power of Customer Misbehavior: Drive Growth and Innovation by Learning from Your Customers](https://www.amazon.de/gp/product/1349467790/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1349467790&linkId=3643637220f7d6c0d50052b6e366228f)
-- The article [Making Good Decisions as a Product Manager](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b)
-- The article [The Greatest Sales Deck I’ve Ever Seen](https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0) (more focussed on transferring a vision)
-- The article [The most important thing Dropbox did to scale Product Management](https://medium.com/@slynch/the-most-important-thing-dropbox-did-to-scale-product-management-fed90e30697e)
+- [Silicon Valley Product Group](https://svpg.com/ "Silicon Valley Product Group")
+- The book [The Power of Customer Misbehavior: Drive Growth and Innovation by Learning from Your Customers](https://www.amazon.de/gp/product/1349467790/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1349467790&linkId=3643637220f7d6c0d50052b6e366228f "The Power of Customer Misbehavior on Amazon")
+- The article [Making Good Decisions as a Product Manager](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b "Article about Making Good Decisions as a Product Manager")
+- The article [The Greatest Sales Deck I’ve Ever Seen](https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0 "Article about The Greatest Sales Deck I’ve Ever Seen") (more focussed on transferring a vision)
+- The article [The most important thing Dropbox did to scale Product Management](https://medium.com/@slynch/the-most-important-thing-dropbox-did-to-scale-product-management-fed90e30697e "Article about The most important thing Dropbox did to scale Product Management")

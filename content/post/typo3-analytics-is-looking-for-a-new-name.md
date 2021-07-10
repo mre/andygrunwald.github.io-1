@@ -33,13 +33,13 @@ At [Apr 19, 2013](https://github.com/andygrunwald/Jacobine/commit/b44dd91e359ad5
 At this time, I got an extensive and in-depth knowledge of the [TYPO3](https://typo3.org/ "TYPO3 Content Management System") ecosystem (code, people, tools, systems, processes, events, etc.) and the TYPO3 community manager [Ben van 't ende](https://ben.vanten.de/ "Website of Ben vant Ende") motivated me to create some metrics ;)
 So the first project was TYPO3.
 
+<!--more-->
+
 > **Update (July 2021): The project is not active anymore.**
 >
 > The idea, passion, and motivation are still alive, but I won't continue [TYPO3-Analytics/Jacobine](https://github.com/andygrunwald/Jacobine/) as it is right now anymore.
 >
 > The project stays open-source on GitHub.
-
-<!--more-->
 
 For a GitHub repository, you need a name.
 I was in the situation to name my proof of concept.

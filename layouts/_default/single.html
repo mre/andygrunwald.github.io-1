@@ -29,10 +29,6 @@
 	</article>
 
 	{{ if (eq .Type "post") }}
-	<div class="comments contribute-link">
-		<h3>Bug? Typo? Contribute!</h3>
-		<p>Found a bug or a typo in this article? Feel free to create a pull request at <a href="https://github.com/andygrunwald/andygrunwald.github.io/blob/main/content/{{ .File.Path }}"><em>{{ .Title }}</em></a> at GitHub<i class="fab fa-fw fa-github"></i></p>
-	</div>
 	<div class="comments related-posts">
 		{{ if eq .Type "post" }}
 			{{ partial "related" . }}

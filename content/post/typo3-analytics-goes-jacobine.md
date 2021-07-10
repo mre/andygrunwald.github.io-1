@@ -42,7 +42,7 @@ To find a name is (in my point of view) very difficult.
 >
 > The project stays open-source on GitHub.
 
-There are some names of projects I like because of the sound, like [Flynn.io](https://flynn.io/ "Flynn: A next-generation open-source platform as a service (PaaS)").
+There are some names of projects I like because of the sound, like [Flynn](https://github.com/flynn/flynn "Flynn: A next-generation open-source platform as a service (PaaS)").
 On 3rd March 2014, I wrote a blog post about this challenge to use the power of the community: TYPO3-Analytics is looking for a new name - suggestions welcome!
 
 Next to this blog post, I got on my girlfriend's nerves with recurring questions like "What do you think about name x? Or y?".

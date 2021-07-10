@@ -102,5 +102,5 @@ A **big thanks** to this!
 
 * René Kerner ([@rk3rn3r](https://twitter.com/rk3rn3r "René Kerner at twitter")) [suggested](https://twitter.com/rk3rn3r/status/440604026368180224) *knoff-hoff*, related to the german tv show "[Die Knoff-Hoff-Show](https://de.wikipedia.org/wiki/Die_Knoff-Hoff-Show)".
 * Christoph Moeller ([@npublish_chris](https://twitter.com/npublish_chris "Christoph Moeller at twitter")) [mentioned](https://twitter.com/npublish_chris/status/440969565472698368) *Shunkan*, japanase for "moment".
-* Mario Mainz ([@m_mainz](https://twitter.com/m_mainz "Mario Mainz at twitter")) raised some acronyms like *SWARM* (SoftWAre Metrics) or *SWAN* (SoftWare ANalytics), [lazy generated](https://twitter.com/m_mainz/status/440972275597066241) by an [Acronym Creator](http://acronymcreator.net/ace.py).
+* Mario Mainz ([@m_mainz](https://twitter.com/m_mainz "Mario Mainz at twitter")) raised some acronyms like *SWARM* (SoftWAre Metrics) or *SWAN* (SoftWare ANalytics), [lazy generated](https://twitter.com/m_mainz/status/440972275597066241) by an [Acronym Creator](https://acronymcreator.net/).
 * Georg Ringer ([@georg_ringer](https://twitter.com/georg_ringer "Georg Ringer at twitter")) [twittered](https://twitter.com/georg_ringer/status/441263913896644608) *quatrix*, *quatrics*, *metriquality* and *metaqual*.

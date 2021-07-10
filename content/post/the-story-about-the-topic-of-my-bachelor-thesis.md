@@ -94,7 +94,7 @@ I learned about ...
 - new tools (CVSAnaly, Bicho, ...)
 - a new programing language (Python)
 - a lot of programming experience
-- concepts with new tools (TYPO3-Analytics, [RabbitMQ](https://www.rabbitmq.com/ "Message queue system RabbitMQ"), [supervisord](https://supervisord.org/ "Software supervisord"), [Vagrant](https://www.vagrantup.com/ "Software Vagrant"), [Chef](https://www.getchef.com/chef/ "Software Chef")...)
+- concepts with new tools (TYPO3-Analytics, [RabbitMQ](https://www.rabbitmq.com/ "Message queue system RabbitMQ"), [supervisord](https://supervisord.org/ "Software supervisord"), [Vagrant](https://www.vagrantup.com/ "Software Vagrant"), [Chef](https://www.chef.io/products/chef-infra "Software Chef")...)
 - new friendly and interesting people (Jesus, Luis, Daniel, ...)
 - a fresh business concept (Bitergia)
 - much new knowledge about an exciting research field I did not know before (Mining Software Repositories)

@@ -33,7 +33,7 @@ aliases = [
 +++
 
 For some time, I am fascinated by the [go programing language](https://golang.org/ "Go(lang) programing language") launched by Google in 2009.
-I am a person with a scripting language background ([PHP](https://php.net/ "PHP programing language") and [Python](https://www.python.org/ "Python programing language")) and was motivated to learn a new programing language.
+I am a person with a scripting language background ([PHP](https://www.php.net/ "PHP programing language") and [Python](https://www.python.org/ "Python programing language")) and was motivated to learn a new programing language.
 
 I chose Go(lang) because I wanted to do some system programming with concurrency support.
 

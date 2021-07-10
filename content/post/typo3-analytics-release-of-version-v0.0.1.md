@@ -2,41 +2,48 @@
 draft = false
 
 title = "TYPO3-Analytics: Release of version v0.0.1"
-description = ""
+description = "The open-source project TYPO3-Analytics (now Jacobine) was released in version 0.0.1."
 images = []
-keywords = []
-tags = [
+keywords = [
     "analytics",
     "development",
     "Jacobine",
     "metrics",
     "open source",
     "software repository mining",
-    "typo3"
+    "typo3",
+]
+tags = [
+    "Open Source"
 ]
 categories = [
-    "Jacobine",
     "Open Source"
 ]
 
 date = "2014-02-15T13:10:00+02:00"
-lastmod = "2014-02-15T13:10:00+02:00"
+lastmod = "2021-07-10T13:10:00+02:00"
 
 featureimage = ""
 menu = ""
 +++
 
-Today i tagged and released version [v0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1) of the project [TYPO3-Analytics](https://github.com/andygrunwald/Jacobine).
-After [303 days](https://www.timeanddate.com/date/durationresult.html?d1=19&m1=4&y1=2013&d2=15&m2=2&y2=2014&ti=on) and [144 commits](https://github.com/andygrunwald/Jacobine/commits/v0.0.1) later, i decided to make a "cut" and start a new version.
+Today i tagged and released version [v0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1 "v0.0.1 of Jacobine") of the project [TYPO3-Analytics](https://github.com/andygrunwald/Jacobine "Jacobine at GitHub").
+After 303 days and 144 commits later, I decided to make a "cut" and start a new version.
 
 This version is a first (workable as far as I know) "proof of concept" for a repository mining platform to produce (community) metrics of various systems.
-The first example system is [TYPO3](https://typo3.org/).
+The first example system is [TYPO3](https://typo3.org/ "TYPO3 Content Management System").
 
 <!--more-->
 
+> **Update (July 2021): The project is not active anymore.**
+>
+> The idea, passion, and motivation are still alive, but I won't continue [TYPO3-Analytics/Jacobine](https://github.com/andygrunwald/Jacobine/) as it is right now anymore.
+>
+> The project stays open-source on GitHub.
+
 # What does this version include?
 
-13 [RabbitMQ](https://www.rabbitmq.com/  ) consumer written in PHP:
+13 [RabbitMQ](https://www.rabbitmq.com/ "RabbitMQ Message Queue System") consumer written in PHP:
 
 * Download a git resource
 * Download an HTTP resource
@@ -59,7 +66,7 @@ The first example system is [TYPO3](https://typo3.org/).
 * Messages to crawl a Gitweb site
 * Messages to crawl an NNTP server
 
-This release can be downloaded from github: [v0.0.1: Release of version 0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1)
+This release can be downloaded from github: [v0.0.1: Release of version 0.0.1](https://github.com/andygrunwald/Jacobine/releases/tag/v0.0.1 "v0.0.1 of Jacobine")
 
 # What will be tackled in the next version?
 
@@ -74,8 +81,8 @@ The next version of TYPO3-Analytics will focus on:
 * flexibility
 * documentation
 
-This means that I try to refactor some code, create unit and integration tests, try to tackle some bugs and "unused" concepts to make a better use of existing functionality (e.g. [RabbitMQ Dead Lettering](https://www.rabbitmq.com/dlx.html)) and to add more parameter to messages to decouple the existing consumer from the proof of concept TYPO3.
+I try to refactor some code, create unit and integration tests, try to tackle some bugs and "unused" concepts to make better use of existing functionality (e.g. [RabbitMQ Dead Lettering](https://www.rabbitmq.com/dlx.html "RabbitMQ Dead Lettering")) and to add more parameter to messages to decouple the existing consumer from the proof of concept TYPO3.
 
-Furthermore, I want to write more documentation and some blog posts about the architecture and concept of this project. I got the hope to find more contributor or to find more people who are interested in it. Maybe it will help. We will see.
+Furthermore, I want to write more documentation and some blog posts about the architecture and concept of this project. I got the hope to find more contributors or to find more people who are interested in it. Maybe it will help. We will see.
 
-If you want to contribute and you do not know how just contact me via Twitter ([@andygrunwald](https://twitter.com/andygrunwald)) or by e-mail ([github profile](https://github.com/andygrunwald)).
+If you want to contribute and you do not know how to contact me via Twitter ([@andygrunwald](https://twitter.com/andygrunwald "Andy Grunwald at twitter)) or by e-mail ([GitHub profile](https://github.com/andygrunwald "Andy Grunwald at GitHub")).

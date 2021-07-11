@@ -1,7 +1,7 @@
 {{ define "main" -}}
     <div class="talks posts">
 
-        {{ range where .Data.Pages.ByDate.Reverse "Type" "public-speaking" }}
+        {{ range .Pages.ByDate.Reverse }}
         <div class="post-teaser">
             {{ if eq (.Date.Format "2006-01-2") (dateFormat "2006-01-2" .Params.eventenddate) }}
             {{ .Date.Format "Monday, 2. Jan 2006" }}

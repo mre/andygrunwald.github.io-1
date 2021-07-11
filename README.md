@@ -22,6 +22,23 @@ $ make build
 $ hugo new post/resources-to-learn-golang.md
 ```
 
+## Open TODOs
+
+### Public Speaking
+
+We had a public speaking section.
+The purpose was to list the talks I gave.
+
+We deactivated the public speaking section, because
+- the talks are content sections
+- the content sections rendered single pages
+- we only want a list page, no single pages
+- we tried headless page bundles, but then I don't know how to create a dedicated page for this
+
+Right now, the public speaking section is deactivated.
+The content can be found in the `other/` folder.
+At some point in time I want to revisit this.
+
 ## Theme
 
 We used [hugo-type-theme](https://github.com/digitalcraftsman/hugo-type-theme) as a foundation (thanks for this!).

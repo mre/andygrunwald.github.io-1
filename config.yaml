@@ -59,10 +59,11 @@ params:
 
 menu:
   nav:
-    - Name: "Public speaking"
-      Weight: -90
-      Identifier: "public-speaking"
-      URL: "/public-speaking/"
+    # TODO Get the Public Speaking Section working again. See README.md for more information.
+    #- Name: "Public speaking"
+    #  Weight: -90
+    #  Identifier: "public-speaking"
+    #  URL: "/public-speaking/"
     - Name: "Blog"
       Weight: -100
       Identifier: "post"

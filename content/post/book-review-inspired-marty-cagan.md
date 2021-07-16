@@ -32,7 +32,7 @@ aliases = [
 
 **tl;dr**: It is excellent!
 Highly recommended, especially if you are working in the tech/internet industry, want to develop your product further, or get insights into this complex role of Product Management.
-[Go, buy, and read it](https://www.amazon.de/gp/product/1119387507/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1119387507&linkId=c71747eb1964d1a11f6227aff3c06356 "Inspired by Marty Cagan at Amazon")!
+{{< link/amazon title="Inspired by Marty Cagan at Amazon" link="https://www.amazon.de/gp/product/1119387507/ref=as_li_qf_asin_il_tl?ie=UTF8&creative=6742&linkCode=as2&creativeASIN=1119387507&linkId=c71747eb1964d1a11f6227aff3c06356">}}Go, buy, and read it{{< /link/amazon >}}!
 
 <!--more-->
 
@@ -40,7 +40,6 @@ Highly recommended, especially if you are working in the tech/internet industry,
     figure src="/img/posts/book-review-inspired-marty-cagan/book-marty-cagan-inspired-how-to-create-tech-products-customers-love.jpg"
     alt="Inspired: How to Create Tech Products Customers Love by Marty Cagan."
     caption="Inspired: How to Create Tech Products Customers Love by Marty Cagan."
-    link="https://www.amazon.de/gp/product/1119387507/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1119387507&linkId=c71747eb1964d1a11f6227aff3c06356"
 >}}
 
 ## Why did I read this book?
@@ -135,7 +134,7 @@ I recommend this book to everyone who ...
 Yes, of course:
 
 - [Silicon Valley Product Group](https://svpg.com/ "Silicon Valley Product Group")
-- The book [The Power of Customer Misbehavior: Drive Growth and Innovation by Learning from Your Customers](https://www.amazon.de/gp/product/1349467790/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=1349467790&linkId=3643637220f7d6c0d50052b6e366228f "The Power of Customer Misbehavior on Amazon")
+- The book {{< link/amazon title="The Power of Customer Misbehavior on Amazon" link="https://www.amazon.de/gp/product/1349467790/ref=as_li_qf_asin_il_tl?ie=UTF8&creative=6742&linkCode=as2&creativeASIN=1349467790&linkId=3643637220f7d6c0d50052b6e366228f">}}The Power of Customer Misbehavior: Drive Growth and Innovation by Learning from Your Customers{{< /link/amazon >}}
 - The article [Making Good Decisions as a Product Manager](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b "Article about Making Good Decisions as a Product Manager")
 - The article [The Greatest Sales Deck I’ve Ever Seen](https://medium.com/the-mission/the-greatest-sales-deck-ive-ever-seen-4f4ef3391ba0 "Article about The Greatest Sales Deck I’ve Ever Seen") (more focussed on transferring a vision)
 - The article [The most important thing Dropbox did to scale Product Management](https://medium.com/@slynch/the-most-important-thing-dropbox-did-to-scale-product-management-fed90e30697e "Article about The most important thing Dropbox did to scale Product Management")

@@ -67,7 +67,7 @@ Inspired by this, I had two motivational goals:
 2. to **combine software** (a field I know) **with hardware** (an area I don't know) and create something real
 
 The idea slept for a long time.
-On the 1st of December 2017, I remembered it and ordered [four big red buzzers](https://www.amazon.de/gp/product/B07F9W55FX/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=B07F9W55FX&linkId=59ed8f2e2dc0a14374e5dadce1705d2f "Buzzers at Amazon").
+On the 1st of December 2017, I remembered it and ordered {{< link/amazon title="Buzzers at Amazon" link="https://www.amazon.de/gp/product/B07F9W55FX/ref=as_li_qf_asin_il_tl?ie=UTF8&creative=6742&linkCode=as2&creativeASIN=B07F9W55FX&linkId=59ed8f2e2dc0a14374e5dadce1705d2f">}}four big red buzzers{{< /link/amazon >}}.
 Nothing happened again for some time until my employer ([trivago](https://www.trivago.com/ "trivago")) announced an internal tech conference planned for March 2019.
 
 This was the chance!

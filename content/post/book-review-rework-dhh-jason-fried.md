@@ -37,7 +37,7 @@ _THIS_. _THIS_. And thousand times _THIS_.
 I love the pragmatism and _ let's move_ attitude combined with a provoking writing style.
 It reminds you how to apply culture and kicks you out of the corporate hamster wheel full of processes and clutter.
 A book you should read every year.
-[Go, buy, and read it](https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca "Rework by David Heinemeier Hansson and Jason Fried at Amazon")!
+{{< link/amazon title="Rework by David Heinemeier Hansson and Jason Fried at Amazon" link="https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca">}}Go, buy, and read it{{< /link/amazon >}}!
 
 <!--more-->
 
@@ -45,7 +45,6 @@ A book you should read every year.
     figure src="/img/posts/book-review-rework-dhh-jason-fried/book-david-heinemeier-hansson-jason-fried-rework-change-the-way-you-work-forever.jpg"
     alt="Rework: Change the way you work forever by David Heinemeier Hansson and Jason Fried"
     caption="Rework: Change the way you work forever by David Heinemeier Hansson and Jason Fried"
-    link="https://www.amazon.de/gp/product/0091929784/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0091929784&linkId=85cbbf1810be985bb91ba372d5aa86ca"
 >}}
 
 > _The problem with [...] copying is it skips understanding - and understanding is how you grow. You have to understand why something works or why sometimes is the way it is._
@@ -149,6 +148,6 @@ Yes, of course:
 
 - The [Signal v. Noise blog](https://m.signalvnoise.com/ "The Signal v. Noise blog") from Basecamp + friends
 - The [Basecamp Employee Handbook](https://github.com/basecamp/handbook "The Basecamp Employee Handbook")
-- The book [It Doesn't Have to Be Crazy at Work](https://www.amazon.de/gp/product/0008323445/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0008323445&linkId=5cd6e9a0b3a23d4d3357661d074234b0 "The book It Doesn't Have to Be Crazy at Work at Amazon") by David and Jason
+- The book {{< link/amazon title="The book It Doesn't Have to Be Crazy at Work at Amazon" link="https://www.amazon.de/gp/product/0008323445/ref=as_li_qf_asin_il_tl?ie=UTF8&creative=6742&linkCode=as2&creativeASIN=0008323445&linkId=5cd6e9a0b3a23d4d3357661d074234b0">}}It Doesn't Have to Be Crazy at Work{{< /link/amazon >}} by David and Jason
 - [Ask HN: Companies with a culture similar to Basecamp's?](https://news.ycombinator.com/item?id=16015715 "HackerNews discussion about Companies with a culture similar to Basecamp's")
 - Twitter accounts of [Jason Fried](https://twitter.com/jasonfried "Jason Fried on twitter") and [David Heinemeier Hansson](https://twitter.com/dhh "David Heinemeier Hansson on twitter")

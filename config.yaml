@@ -49,6 +49,7 @@ params:
   copyright: "Andy Grunwald"
   headerText: "Hi, my name is **Andy Grunwald**, a Software Engineer with a focus on **Backend, Infrastructure, and Engineering Culture**. I work at [trivago](https://www.trivago.com/) and run the [Web Engineering DUS Meetup](https://www.meetup.com/Web-Engineering-Duesseldorf/)."
   avatar: "img/avatar.png"
+  amazonAffiliateID: "andygrunwal0a-21"
   social:
     rss: true
     email: "andygrunwald@gmail.com"

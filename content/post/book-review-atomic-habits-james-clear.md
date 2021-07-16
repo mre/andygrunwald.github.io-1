@@ -31,7 +31,7 @@ aliases = [
 **tl;dr**: Good book about moving towards your goals with (very) small steps.
 Various insights into real-life stories, new perspectives, and practical tips on destroying bad or establishing new habits.
 Recommended if you like [James articles](https://jamesclear.com/articles "Articles by James Clear") and his style.
-The book is full of this: [Go, buy, and read it](https://www.amazon.de/gp/product/1847941834/ref=as_li_tl?ie=UTF8&tag=andygrunwal0a-21&camp=1638&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=655500f09dc93b189f346505fad8f425 "Atomic Habits by James Clear at Amazon").
+The book is full of this: {{< link/amazon title="Atomic Habits by James Clear at Amazon" link="https://www.amazon.de/gp/product/1847941834/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=655500f09dc93b189f346505fad8f425">}}Go, buy, and read it{{< /link/amazon >}}.
 
 <!--more-->
 
@@ -39,7 +39,6 @@ The book is full of this: [Go, buy, and read it](https://www.amazon.de/gp/produc
     figure src="/img/posts/book-review-atomic-habits-james-clear/book-james-clear-atomic-habits-easy-proven-way-to-build-good-habits-break-bad-ones.jpg"
     alt="Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones by James Clear"
     caption="Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones by James Clear"
-    link="https://www.amazon.de/gp/product/1847941834/ref=as_li_tl?ie=UTF8&tag=andygrunwal0a-21&camp=1638&creative=6742&linkCode=as2&creativeASIN=1847941834&linkId=655500f09dc93b189f346505fad8f425"
 >}}
 
 ## Why did I read this book?
@@ -130,4 +129,4 @@ Yes, of course:
 - Articles [by James Clear on his website](https://jamesclear.com/articles "Articles by James Clear")
 - [Flow State](https://en.wikipedia.org/wiki/Flow_(psychology) "Flow state at Wikipedia")
 - The article [trivago Flow Lab: The Science of Productivity](https://life.trivago.com/happenings/trivago-flow-lab-science-productivity.html "The Science of Productivity at trivago Flow Lab") by Sören, Kirill, and Philipp
-- The book [Getting Things Done: The Art of Stress-Free Productivity](https://www.amazon.de/gp/product/0349423148/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=andygrunwal0a-21&creative=6742&linkCode=as2&creativeASIN=0349423148&linkId=7f8a8df0a289934006cc8845d24c37e9 "Getting Things Done: The Art of Stress-Free Productivity by David Allen at Amazon") by David Allen
+- The book {{< link/amazon title="Getting Things Done: The Art of Stress-Free Productivity by David Allen at Amazon" link="https://www.amazon.de/gp/product/0349423148/ref=as_li_qf_asin_il_tl?ie=UTF8&creative=6742&linkCode=as2&creativeASIN=0349423148&linkId=7f8a8df0a289934006cc8845d24c37e9">}}Getting Things Done: The Art of Stress-Free Productivity{{< /link/amazon >}} by David Allen

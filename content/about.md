@@ -1,9 +1,9 @@
 +++
-date = "2016-07-31T18:53:37+02:00"
 draft = false
-title = "About Andy Grunwald"
+
+title = "About"
 description = "Andy Grunwald, Software Engineer with a focus on Backend, Infrastructure, and Engineering Culture."
-images = ["/img/avatar.png"]
+images = []
 keywords = [
     "Andy Grunwald",
     "Software Engineer",

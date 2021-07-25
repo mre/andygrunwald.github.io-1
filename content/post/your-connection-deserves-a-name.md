@@ -41,14 +41,14 @@ menu = ""
     alt="Provide a name to your database connection"
 >}}
 
-**tl;dr**: When your application interacts with an external system (e.g., a data store), assign a name to the connection.
+**tl;dr**: When your application interacts with an external system (e.g., a datastore), assign a name to the connection.
 The goal should be that the external system knows who you are.
 In case of a problem, this will reduce the time to debug by multiple hours and often save other applications from failing.
 Check out [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for redis, RabbitMQ, PostgreSQL and more") for code examples how to do it.
 
 <!--more-->
 
-Most of the applications on this planet interact with some data store (used as a synonym for things like a database, cache, queuing system).
+Most of the applications on this planet interact with some datastore (used as a synonym for things like a database, cache, queuing system).
 In a perfect (engineering) world:
 
 * Every application has its own datastore
@@ -62,13 +62,13 @@ The reality is like this:
 * These applications get independent developed from each other
 * and even may receive different types of traffic patterns
 
-This leads to a situation where one application requests many data store resources (e.g., through traffic spikes or expensive and inefficient queries).
+This leads to a situation where one application requests many datastore resources (e.g., through traffic spikes or expensive and inefficient queries).
 At the same time, all other applications might suffer from unexpected behavior or a (partial) outage due to limited resources available on the datastore to serve the requests.
 
 {{<
     figure src="/img/posts/your-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
-    alt="A perfect (engineering) world where everyone has its own data store vs. Reality where data stores are shared."
-    caption="A perfect (engineering) world where everyone has its own data store vs. Reality where data stores are shared."
+    alt="A perfect (engineering) world where everyone has its own datastore vs. Reality where datastores are shared."
+    caption="A perfect (engineering) world where everyone has its own datastore vs. Reality where datastores are shared."
 >}}
 
 This situation is typically hard to debug because the root cause is not that obvious:
@@ -77,17 +77,17 @@ Application B is failing because the datastore cannot answer in time due to Appl
 If you are in control of the applications, assigning a name to each connected client wise can help to
 
 * lower the debugging pain and reduce the time to recover in an outage
-* collect usage/resource metrics from the perspective of the data store over each application
+* collect usage/resource metrics from the perspective of the datastore over each application
 
 ## What is a good connection name?
 
 In general, everything to identify who sends the request or query.
 Two quick suggestions:
 
-**If you control all applications and data stores**, choose the name of the application itself.
+**If you control all applications and datastores**, choose the name of the application itself.
 If the application opens several connections, add another identifier like a package or a class name.
 
-**If you don't own the data store or operate with an external service**, use the application name followed by some contact information.
+**If you don't own the datastore or operate with an external service**, use the application name followed by some contact information.
 In case of trouble, the operator will reach out.
 
 ## How to assign a name to a connection

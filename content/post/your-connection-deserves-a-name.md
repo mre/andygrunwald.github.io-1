@@ -41,9 +41,9 @@ menu = ""
     alt="Provide a name to your database connection"
 >}}
 
-**tl;dr**: When your application interacts with an external system (e.g., a datastore), assign a name to the connection.
-The goal should be that the external system knows who you are.
-In case of a problem, this will reduce the time to debug by multiple hours and often save other applications from failing.
+**tl;dr**: When your app interacts with an external system (e.g., a datastore), **assign a name to the connection**.
+The goal should be: **the external system knows who you are**.
+During an incident, it will reduce the time to debug by multiple hours and often save other applications from failing.
 Check out [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for redis, RabbitMQ, PostgreSQL and more") for code examples how to do it.
 
 <!--more-->

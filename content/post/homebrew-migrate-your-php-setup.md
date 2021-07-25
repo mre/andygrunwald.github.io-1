@@ -9,17 +9,19 @@ keywords = [
     "homebrew",
     "macOS",
     "environment",
-    "programming"
+    "engineering",
+    "programming",
 ]
 tags = [
     "Programming",
+    "Engineering",
     "PHP",
     "Open Source"
 ]
 categories = [
     "PHP",
     "Open Source",
-    "Programming"
+    "Engineering"
 ]
 
 date = 2018-04-10T17:14:20+02:00

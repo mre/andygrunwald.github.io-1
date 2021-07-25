@@ -6,6 +6,7 @@ description = "If you want to learn Go(lang) and don't know where to start, here
 images = []
 keywords = [
     "Programming",
+    "Engineering",
     "Go",
     "Golang",
     "Google",
@@ -15,10 +16,11 @@ keywords = [
 ]
 tags = [
     "Programming",
+    "Engineering",
     "Go",
 ]
 categories = [
-    "Programming",
+    "Engineering",
     "Go"
 ]
 

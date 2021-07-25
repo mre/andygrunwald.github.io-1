@@ -2,9 +2,9 @@
 &#183; Tags:
 <a href=https://andygrunwald.com/tags/engineering/>Engineering</a>
 , <a href=https://andygrunwald.com/tags/lessons-learned/>Lessons learned</a>
-, <a href=https://andygrunwald.com/tags/programming/>Programming</a></p></header><section class=post-content><figure><img src=https://andygrunwald.com/img/posts/your-connection-deserves-a-name/assign-a-name-to-your-connection.png alt="Provide a name to your database connection"></figure><p><strong>tl;dr</strong>: When your application interacts with an external system (e.g., a datastore), assign a name to the connection.
-The goal should be that the external system knows who you are.
-In case of a problem, this will reduce the time to debug by multiple hours and often save other applications from failing.
+, <a href=https://andygrunwald.com/tags/programming/>Programming</a></p></header><section class=post-content><figure><img src=https://andygrunwald.com/img/posts/your-connection-deserves-a-name/assign-a-name-to-your-connection.png alt="Provide a name to your database connection"></figure><p><strong>tl;dr</strong>: When your app interacts with an external system (e.g., a datastore), <strong>assign a name to the connection</strong>.
+The goal should be: <strong>the external system knows who you are</strong>.
+During an incident, it will reduce the time to debug by multiple hours and often save other applications from failing.
 Check out <a href=https://github.com/andygrunwald/your-connection-deserves-a-name title="Code examples on how to name a connection for redis, RabbitMQ, PostgreSQL and more">andygrunwald/your-connection-deserves-a-name @ Github</a> for code examples how to do it.</p><p>Most of the applications on this planet interact with some datastore (used as a synonym for things like a database, cache, queuing system).
 In a perfect (engineering) world:</p><ul><li>Every application has its own datastore</li><li>Datastores are not shared across applications</li><li>Direct access to the stored data is shielded by an application (e.g., an API)</li></ul><p>The thing is: We don&rsquo;t live in a perfect (engineering) world.
 The reality is like this:</p><ul><li>Several applications share one or multiple datastore</li><li>These applications get independent developed from each other</li><li>and even may receive different types of traffic patterns</li></ul><p>This leads to a situation where one application requests many datastore resources (e.g., through traffic spikes or expensive and inefficient queries).

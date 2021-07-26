@@ -107,13 +107,15 @@ In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/an
 
 ### ... with redis
 
-After creating a connection to redis, send the [*CLIENT SETNAME*](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
+After creating a connection to redis, send the [`CLIENT SETNAME`](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
 
-`CLIENT SETNAME your-connection-deserves-a-name-go`
+```sh
+CLIENT SETNAME your-connection-deserves-a-name-go
+```
 
 Via [`CLIENT LIST`](https://redis.io/commands/client-list "CLIENT LIST @ redis docs") you can see all clients, including their name:
 
-```
+```sh
 $ CLIENT LIST
 id=3 addr=172.17.0.1:61516 name=your-connection-deserves-a-name-go [...]
 ```

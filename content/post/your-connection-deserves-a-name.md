@@ -105,7 +105,7 @@ Once supported, it is usually straightforward to assign a name to a connection w
 
 In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for Redis, RabbitMQ, PostgreSQL and more") I provide complete examples for different programming languages and systems on how to assign a name to a connection.
 
-### How to assign a name to your redis connection
+### ... with redis
 
 After creating a connection to redis, send the [*CLIENT SETNAME*](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
 
@@ -120,7 +120,7 @@ id=3 addr=172.17.0.1:61516 name=your-connection-deserves-a-name-go [...]
 
 ➡️ Checkout [screenshots and code examples for redis at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/redis).
 
-### How to assign a name to your RabbitMQ connection
+### ... with RabbitMQ
 
 While creating a connection to RabbitMQ, you can provide AMQP options.
 One of the options is [`connection_name`](https://www.rabbitmq.com/connections.html#client-provided-names "AMQP Client-Provided Connection Name @ RabbitMQ docs").
@@ -146,7 +146,7 @@ In the UI of Rabbit under the Connection tab, you can see all connected clients,
 
 ➡️ Checkout [screenshots and code examples for RabbitMQ at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/rabbitmq).
 
-### How to assign a name to your PostgreSQL connection
+### ... with PostgreSQL
 
 While creating a connection to PostgreSQL, you can provide a client name in the connection string.
 The property is called [`application_name`](https://www.postgresql.org/docs/9.0/runtime-config-logging.html#GUC-APPLICATION-NAME) and is part of [libpq](https://www.postgresql.org/docs/9.0/libpq-connect.html).
@@ -168,7 +168,7 @@ postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_s
 
 ➡️ Checkout [screenshots and code examples for PostgreSQL at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/postgresql).
 
-### How to assign a name to your HTTP connection
+### ... with HTTP
 
 The [User-Agent HTTP header field](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent "User-Agent at Mozilla Developer Network") was explicitly created for this use-case:
 

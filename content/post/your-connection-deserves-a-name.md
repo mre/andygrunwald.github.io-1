@@ -1,7 +1,7 @@
 +++
 draft = false
 
-title = "your connection deserves a name"
+title = "your database connection deserves a name"
 description = "Assigning a name to your database connection can lower your time to debug. We provide an overview of how to do this for various database systems."
 images = [
     "/img/posts/your-connection-deserves-a-name/assign-a-name-to-your-connection.png",
@@ -34,6 +34,9 @@ lastmod = 2021-07-25T08:30:00+02:00
 
 featureimage = ""
 menu = ""
+aliases = [
+    "/blog/your-connection-deserves-a-name/"
+]
 +++
 
 {{<

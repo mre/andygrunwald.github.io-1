@@ -41,10 +41,9 @@ menu = ""
     alt="Provide a name to your database connection"
 >}}
 
-**tl;dr**: When your app interacts with an external system (e.g., a datastore), **assign a name to the connection**.
+**tl;dr**: When your app interacts with an external system (e.g., a database), **assign a name to the connection**.
 The goal should be: **the external system knows who you are**.
 During an incident, it will reduce the time to debug by multiple hours and often save other applications from failing.
-Check out [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for redis, RabbitMQ, PostgreSQL and more") for code examples how to do it.
 
 <!--more-->
 
@@ -78,6 +77,17 @@ If you are in control of the applications, assigning a name to each connected cl
 
 * lower the debugging pain and reduce the time to recover in an outage
 * collect usage/resource metrics from the perspective of the datastore over each application
+
+## How helpful is this in reality?
+
+In my last eight years working mainly on the reliability of [trivago](https://www.trivago.com/), connection naming has helped us multiple times to find the root cause faster.
+We saw:
+
+- blocked Redis instances
+- blocked database tables due to inefficient queries
+- overloaded database servers due to traffic spikes
+
+In all cases, identifying the client was the main entry point for the solution.
 
 ## What is a good connection name?
 
@@ -184,17 +194,6 @@ Here are a few suggestions:
 * [GitHub API](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#user-agent-required "User-Agent section @ GitHub API docs"): your GitHub username, or the name of your application
 
 ➡️ Checkout [screenshots and code examples for HTTP at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/http).
-
-## How helpful is this in reality?
-
-In my last eight years working mainly on the reliability of [trivago](https://www.trivago.com/), connection naming has helped us multiple times to find the root cause faster.
-We saw multiple times:
-
-- blocked Redis instances
-- blocked database tables due to inefficient queries
-- overloaded database servers due to traffic spikes
-
-In all cases, identifying the client was the main entry point for the solution.
 
 ## You know a system that supports connection naming?
 

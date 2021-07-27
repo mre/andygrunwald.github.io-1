@@ -43,13 +43,13 @@ menu = ""
 
 **tl;dr**: When your app interacts with an external system (e.g., a database), **assign a name to the connection**.
 The goal should be: **the external system knows who you are**.
-During an incident, it will reduce the time to debug by multiple hours and often save other applications from failing.
+It will reduce the time to debug by multiple hours and often save other applications from failing during an incident.
 
 ➡️ Want to see how it works? Checkout examples for [redis]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), [RabbitMQ]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}), [PostgreSQL]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}) and [HTTP]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 
 <!--more-->
 
-## Why naming your datastore connection make sense
+## Why does naming your datastore connection make sense?
 
 Most of the applications on this planet interact with some datastore (used as a synonym for things like a database, cache, queuing system).
 In a perfect (engineering) world:
@@ -84,14 +84,23 @@ If you are in control of the applications, assigning a name to each connected cl
 
 ## How helpful is this in reality?
 
-In my last eight years working mainly on the reliability of [trivago](https://www.trivago.com/), connection naming has helped us multiple times to find the root cause faster.
-We saw:
+In my last eight years working mainly on the scalability and reliability of [trivago](https://www.trivago.com/), connection naming has **helped us multiple times during an incident to find the root cause faster**.
+We saw things like:
 
-- blocked Redis instances
-- blocked database tables due to inefficient queries
-- overloaded database servers due to traffic spikes
+* [blocked and unresponsive Redis instances](https://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/ "Learn Redis the hard way (in production) @ trivago tech blog")
+* blocked database tables due to inefficient queries
+* overloaded database servers due to raising traffic and query volumes
+* services that receive a large number of HTTP requests from unknown sources
 
-In all cases, identifying the client was the main entry point for the solution.
+In all cases, identifying the client was the main entry point for the final solution.
+
+Additionally, if you plan to **deprecate and shut down "legacy" applications and those still receive traffic**, identifying the clients can help you achieve your goal quicker.
+The alternatives would be:
+
+* Asking around "_Who is using the old currency conversion service?_" in the company chat
+* Shutting down the service and wait until other services crash or people start to scream why something is not working
+
+Both alternatives can be professionally solved with connection naming.
 
 ## What is a good connection name?
 

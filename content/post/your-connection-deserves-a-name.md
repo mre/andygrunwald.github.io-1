@@ -142,7 +142,8 @@ Via [`CLIENT LIST`](https://redis.io/commands/client-list "CLIENT LIST @ redis d
 
 ```sh
 $ CLIENT LIST
-id=3 addr=172.17.0.1:61516 name=currency-conversion-app [...]
+id=3 addr=172.17.0.1:62668 name=currency-conversion-app [...]
+id=4 addr=172.17.0.1:62676 name=stock-exchange-rates-app [...]
 ```
 
 ➡️ Checkout [screenshots and code examples for redis at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/redis).
@@ -188,9 +189,10 @@ To see which clients are connected (incl. their application name), you can query
 ```sql
 postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_stat_activity;
 
- usename  |    application_name     | client_addr | backend_type
-----------+-------------------------+-------------+----------------
- postgres | currency-conversion-app | 172.17.0.1  | client backend
+ usename  |     application_name     | client_addr |  backend_type
+----------+--------------------------+-------------+-----------------
+ postgres | stock-exchange-rates-app | 172.17.0.1  | client backend
+ postgres | currency-conversion-app  | 172.17.0.1  | client backend
 ```
 
 ➡️ Checkout [screenshots and code examples for PostgreSQL at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/postgresql).

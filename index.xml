@@ -3,7 +3,7 @@ alt="Provide a name to your database connection"/>
 &lt;/figure>
 &lt;p>&lt;strong>tl;dr&lt;/strong>: When your app interacts with an external system (e.g., a database), &lt;strong>assign a name to the connection&lt;/strong>.
 The goal should be: &lt;strong>the external system knows who you are&lt;/strong>.
-During an incident, it will reduce the time to debug by multiple hours and often save other applications from failing.&lt;/p>
+It will reduce the time to debug by multiple hours and often save other applications from failing during an incident.&lt;/p>
 &lt;p>➡️ Want to see how it works? Checkout examples for &lt;a href="https://andygrunwald.com/blog/your-connection-deserves-a-name/#how-to-assign-a-name-to-your-_redis_-connection">redis&lt;/a>, &lt;a href="https://andygrunwald.com/blog/your-connection-deserves-a-name/#how-to-assign-a-name-to-your-_rabbitmq_-connection">RabbitMQ&lt;/a>, &lt;a href="https://andygrunwald.com/blog/your-connection-deserves-a-name/#how-to-assign-a-name-to-your-_postgresql_-connection">PostgreSQL&lt;/a> and &lt;a href="https://andygrunwald.com/blog/your-connection-deserves-a-name/#how-to-assign-a-name-to-your-_http_-connection">HTTP&lt;/a>.&lt;/p></description></item><item><title>Web Engineering DUS Meetup: Recap of 2019</title><link>https://andygrunwald.com/blog/web-engineering-dus-recap-of-2019/</link><pubDate>Wed, 25 Dec 2019 18:00:00 +0100</pubDate><guid>https://andygrunwald.com/blog/web-engineering-dus-recap-of-2019/</guid><description>&lt;figure>&lt;img src="https://andygrunwald.com/img/posts/webengdus-recap-of-2019/web-engineering-duesseldorf-logo-banner.png"
 alt="Web Engineering Düsseldorf Meetup Logo"/>
 &lt;/figure>

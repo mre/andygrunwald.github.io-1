@@ -1,7 +1,7 @@
 +++
 draft = false
 
-title = "your database connection deserves a name"
+title = "your connection deserves a name"
 description = "Assigning a name to your database connection can lower your time to debug. We provide an overview of how to do this for various database systems."
 images = [
     "/img/posts/your-connection-deserves-a-name/assign-a-name-to-your-connection.png",
@@ -34,9 +34,6 @@ lastmod = 2021-07-25T08:30:00+02:00
 
 featureimage = ""
 menu = ""
-aliases = [
-    "/blog/your-connection-deserves-a-name/"
-]
 +++
 
 {{<
@@ -48,7 +45,11 @@ aliases = [
 The goal should be: **the external system knows who you are**.
 During an incident, it will reduce the time to debug by multiple hours and often save other applications from failing.
 
+➡️ Want to see how it works? Checkout examples for [redis]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), [RabbitMQ]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}), [PostgreSQL]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}) and [HTTP]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
+
 <!--more-->
+
+## Why naming your datastore connection make sense
 
 Most of the applications on this planet interact with some datastore (used as a synonym for things like a database, cache, queuing system).
 In a perfect (engineering) world:
@@ -99,26 +100,28 @@ Two quick suggestions:
 
 **If you control all applications and datastores**, choose the name of the application itself.
 If the application opens several connections, add another identifier like a package or a class name.
+Like `currency-conversion-app` or `thor` (if this is your project's codename).
 
 **If you don't own the datastore or operate with an external service**, use the application name followed by some contact information.
-In case of trouble, the operator will reach out.
+Like `currency-conversion - currency@mycompany.com`.
+In case of trouble, the operator can reach out.
 
 ## How to assign a name to a connection
 
 This depends on the system you are using.
 Below you find instructions for
 
-- [redis](#how-to-assign-a-name-to-your-redis-connection)
-- [RabbitMQ](#how-to-assign-a-name-to-your-rabbitmq-connection)
-- [PostgreSQL](#how-to-assign-a-name-to-your-postgresql-connection)
-- [HTTP](#how-to-assign-a-name-to-your-http-connection)
+- [redis]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}})
+- [RabbitMQ]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}})
+- [PostgreSQL]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}})
+- [HTTP]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}})
 
 Keep in mind: Not every datastore supports this.
 Once supported, it is usually straightforward to assign a name to a connection without any engineering overhead.
 
 In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for Redis, RabbitMQ, PostgreSQL and more") I provide complete examples for different programming languages and systems on how to assign a name to a connection.
 
-### ... with redis
+### How to assign a name to your _redis_ connection
 
 After creating a connection to redis, send the [`CLIENT SETNAME`](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
 
@@ -135,7 +138,7 @@ id=3 addr=172.17.0.1:61516 name=currency-conversion-app [...]
 
 ➡️ Checkout [screenshots and code examples for redis at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/redis).
 
-### ... with RabbitMQ
+### How to assign a name to your _RabbitMQ_ connection
 
 While creating a connection to RabbitMQ, you can provide AMQP options.
 One of the options is [`connection_name`](https://www.rabbitmq.com/connections.html#client-provided-names "AMQP Client-Provided Connection Name @ RabbitMQ docs").
@@ -161,7 +164,7 @@ In the UI of Rabbit under the Connection tab, you can see all connected clients,
 
 ➡️ Checkout [screenshots and code examples for RabbitMQ at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/rabbitmq).
 
-### ... with PostgreSQL
+### How to assign a name to your _PostgreSQL_ connection
 
 While creating a connection to PostgreSQL, you can provide a client name in the connection string.
 The property is called [`application_name`](https://www.postgresql.org/docs/9.0/runtime-config-logging.html#GUC-APPLICATION-NAME) and is part of [libpq](https://www.postgresql.org/docs/9.0/libpq-connect.html).
@@ -183,7 +186,7 @@ postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_s
 
 ➡️ Checkout [screenshots and code examples for PostgreSQL at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/postgresql).
 
-### ... with HTTP
+### How to assign a name to your _HTTP_ connection
 
 The [User-Agent HTTP header field](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent "User-Agent at Mozilla Developer Network") was explicitly created for this use-case:
 

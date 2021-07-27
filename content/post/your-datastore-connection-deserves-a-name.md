@@ -1,11 +1,11 @@
 +++
 draft = false
 
-title = "your connection deserves a name"
+title = "your datastore connection deserves a name"
 description = "Assigning a name to your database connection can lower your time to debug. We provide an overview of how to do this for various database systems."
 images = [
-    "/img/posts/your-connection-deserves-a-name/assign-a-name-to-your-connection.png",
-    "/img/posts/your-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
+    "/img/posts/your-datastore-connection-deserves-a-name/assign-a-name-to-your-connection.png",
+    "/img/posts/your-datastore-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
 ]
 keywords = [
     "Database",
@@ -34,10 +34,14 @@ lastmod = 2021-07-25T08:30:00+02:00
 
 featureimage = ""
 menu = ""
+aliases = [
+    "/blog/your-database-connection-deserves-a-name/",
+    "/blog/your-connection-deserves-a-name/"
+]
 +++
 
 {{<
-    figure src="/img/posts/your-connection-deserves-a-name/assign-a-name-to-your-connection.png"
+    figure src="/img/posts/your-datastore-connection-deserves-a-name/assign-a-name-to-your-connection.png"
     alt="Provide a name to your database connection"
 >}}
 
@@ -45,7 +49,7 @@ menu = ""
 The goal should be: **the external system knows who you are**.
 It will reduce the time to debug by multiple hours and often save other applications from failing during an incident.
 
-➡️ Want to see how it works? Checkout examples for [redis]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), [RabbitMQ]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}), [PostgreSQL]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}) and [HTTP]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
+➡️ Want to see how it works? Checkout examples for [redis]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), [RabbitMQ]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}), [PostgreSQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}) and [HTTP]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 
 <!--more-->
 
@@ -69,7 +73,7 @@ This leads to a situation where one application requests many datastore resource
 At the same time, all other applications might suffer from unexpected behavior or a (partial) outage due to limited resources available on the datastore to serve the requests.
 
 {{<
-    figure src="/img/posts/your-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
+    figure src="/img/posts/your-datastore-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
     alt="A perfect (engineering) world where everyone has its own datastore vs. Reality where datastores are shared."
     caption="A perfect (engineering) world where everyone has its own datastore vs. Reality where datastores are shared."
 >}}
@@ -120,13 +124,18 @@ In case of trouble, the operator can reach out.
 This depends on the system you are using.
 Below you find instructions for
 
-- [redis]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}})
-- [RabbitMQ]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}})
-- [PostgreSQL]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}})
-- [HTTP]({{< ref "your-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}})
+- [redis]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}})
+- [RabbitMQ]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}})
+- [PostgreSQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}})
+- [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}})
+- [HTTP]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}})
 
 Keep in mind: Not every datastore supports this.
-Once supported, it is usually straightforward to assign a name to a connection without any engineering overhead.
+E.g., MySQL doesn't support this yet.
+In such cases there are workarounds like using seperate user accounts for each application.
+Read more about this in the instructions for [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}).
+
+Once connection naming is supported, it is usually straightforward without any engineering overhead.
 
 In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for Redis, RabbitMQ, PostgreSQL and more") I provide complete examples for different programming languages and systems on how to assign a name to a connection.
 
@@ -167,7 +176,7 @@ conn, err := amqp.DialConfig("amqp://guest:guest@127.0.0.1:5672/", config)
 In the UI of Rabbit under the Connection tab, you can see all connected clients, including their names:
 
 {{<
-    figure src="/img/posts/your-connection-deserves-a-name/rabbitmq-connection-client-name.png"
+    figure src="/img/posts/your-datastore-connection-deserves-a-name/rabbitmq-connection-client-name.png"
     alt="RabbitMQ Connections: Showing clients name under the IP address"
     caption="RabbitMQ Connections: Showing clients name under the IP address"
 >}}
@@ -196,6 +205,16 @@ postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_s
 ```
 
 ➡️ Checkout [screenshots and code examples for PostgreSQL at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/postgresql).
+
+### How to assign a name to your _MySQL_ connection
+
+_The sad news_:
+The MySQL protocol does not support naming your connection.
+
+_The good news_:
+There is a workaround → Using a seperate username for each application.
+
+TODO
 
 ### How to assign a name to your _HTTP_ connection
 

@@ -123,14 +123,14 @@ In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/an
 After creating a connection to redis, send the [`CLIENT SETNAME`](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
 
 ```sh
-CLIENT SETNAME your-connection-deserves-a-name-go
+CLIENT SETNAME currency-conversion-app
 ```
 
 Via [`CLIENT LIST`](https://redis.io/commands/client-list "CLIENT LIST @ redis docs") you can see all clients, including their name:
 
 ```sh
 $ CLIENT LIST
-id=3 addr=172.17.0.1:61516 name=your-connection-deserves-a-name-go [...]
+id=3 addr=172.17.0.1:61516 name=currency-conversion-app [...]
 ```
 
 ➡️ Checkout [screenshots and code examples for redis at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/redis).
@@ -145,7 +145,7 @@ This is how it looks like in Go:
 ```go
 config := amqp.Config{
     Properties: amqp.Table{
-        "connection_name": "your-connection-deserves-a-name-go",
+        "connection_name": "currency-conversion-app",
     },
 }
 conn, err := amqp.DialConfig("amqp://guest:guest@127.0.0.1:5672/", config)
@@ -167,7 +167,7 @@ While creating a connection to PostgreSQL, you can provide a client name in the 
 The property is called [`application_name`](https://www.postgresql.org/docs/9.0/runtime-config-logging.html#GUC-APPLICATION-NAME) and is part of [libpq](https://www.postgresql.org/docs/9.0/libpq-connect.html).
 
 ```go
-dsn := "postgres://user:pass@127.0.0.1/database?application_name=your-connection-deserves-a-name-go"
+dsn := "postgres://user:pass@127.0.0.1/database?application_name=currency-conversion-app"
 conn, err := sql.Open("postgres", dsn)
 ```
 
@@ -176,9 +176,9 @@ To see which clients are connected (incl. their application name), you can query
 ```sql
 postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_stat_activity;
 
- usename  |          application_name          | client_addr |         backend_type
-----------+------------------------------------+-------------+------------------------------
- postgres | your-connection-deserves-a-name-go | 172.17.0.1  | client backend
+ usename  |    application_name     | client_addr | backend_type
+----------+-------------------------+-------------+----------------
+ postgres | currency-conversion-app | 172.17.0.1  | client backend
 ```
 
 ➡️ Checkout [screenshots and code examples for PostgreSQL at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/postgresql).

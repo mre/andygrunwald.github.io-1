@@ -48,9 +48,10 @@ aliases = [
 
 **tl;dr**: When multiple apps interact with the same database, nasty side-effects can happen:
 One app keeps the database busy, that all other apps stop responding.
-In this case, you are dealing with an incident that is difficult to debug due to a not that obvious root cause.
-**Assigning a name to each database connection** can make your life easier.
+In this case, you are dealing with an incident that is difficult to debug due to a non-obvious root cause.
+**Assigning a name to each database connection** can make a difference.
 It will reduce the time to debug by multiple hours and finding the root cause faster.
+From the database, you can differentiate the apps and their commands to identify the bad client.
 
 ➡️ Want to see how it works? Checkout examples for [redis]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), [RabbitMQ]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}), [PostgreSQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}) and [HTTP]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 
@@ -58,33 +59,35 @@ It will reduce the time to debug by multiple hours and finding the root cause fa
 
 ## Why does naming your datastore connection make sense?
 
-Most of the applications on this planet interact with some datastore (used as a synonym for things like a database, cache, queuing system).
-In a perfect (engineering) world:
+Most of the applications on this planet interact with some datastore.
+_Datastore_ in the context of this article is used as a synonym a database, a cache, a queuing system, ....
+In a perfect world:
 
 * Every application has its own datastore
 * Datastores are not shared across applications
-* Direct access to the stored data is shielded by an application (e.g., an API)
+* Direct access to the stored data is shielded by an application via an API
 
-The thing is: We don't live in a perfect (engineering) world.
+The thing is: We don't live in a perfect world.
 The reality is like this:
 
 * Several applications share one or multiple datastore
 * These applications get independent developed from each other
 * and even may receive different types of traffic patterns
 
-This leads to a situation where one application requests many datastore resources (e.g., through traffic spikes or expensive and inefficient queries).
-At the same time, all other applications might suffer from unexpected behavior or a (partial) outage due to limited resources available on the datastore to serve the requests.
+This leads to a situation where one application requests many datastore resources.
+Triggers can be unexpected traffic spikes or expensive and inefficient queries.
+At the same time, the other applications might suffer from unexpected behavior or a partial outage due to limited resources available on the datastore to serve the requests.
 
 {{<
     figure src="/img/posts/your-datastore-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
-    alt="A perfect (engineering) world where everyone has its own datastore vs. Reality where datastores are shared."
-    caption="A perfect (engineering) world where everyone has its own datastore vs. Reality where datastores are shared."
+    alt="A perfect world where everyone has its own datastore vs. Reality where datastores are shared."
+    caption="A perfect world where everyone has its own datastore vs. Reality where datastores are shared."
 >}}
 
 This situation is typically hard to debug because the root cause is not that obvious:
 Application B is failing because the datastore cannot answer in time due to Application A sending expensive requests.
 
-If you are in control of the applications, assigning a name to each connected client wise can help to
+If you are in control of the applications, assigning a name to each connected client can help to
 
 * lower the debugging pain and reduce the time to recover in an outage
 * collect usage/resource metrics from the perspective of the datastore over each application
@@ -197,7 +200,7 @@ dsn := "postgres://user:pass@127.0.0.1/database?application_name=currency-conver
 conn, err := sql.Open("postgres", dsn)
 ```
 
-To see which clients are connected (incl. their application name), you can query the `pg_stat_activity` table:
+To see which clients are connected with their application name, you can query the `pg_stat_activity` table:
 
 ```sql
 postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_stat_activity;
@@ -232,7 +235,7 @@ dsn := "stock-exchange-rates-app:newyork@/connection_name"
 conn, err := sql.Open("mysql", dsn)
 ```
 
-To see which clients are connected (incl. their username), you can query the [processlist](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html):
+To see which clients are connected and their username, you can query the [processlist](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html):
 
 ```sql
 SHOW PROCESSLIST;

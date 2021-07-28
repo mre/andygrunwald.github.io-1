@@ -17,6 +17,7 @@ keywords = [
     "Redis",
     "RabbitMQ",
     "PostgreSQL",
+    "MySQL",
     "Best practice"
 ]
 tags = [
@@ -30,7 +31,7 @@ categories = [
 ]
 
 date = 2021-07-25T08:30:00+02:00
-lastmod = 2021-07-25T08:30:00+02:00
+lastmod = 2021-07-28T17:55:00+02:00
 
 featureimage = ""
 menu = ""
@@ -130,12 +131,13 @@ Below you find instructions for
 - [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}})
 - [HTTP]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}})
 
-Keep in mind: Not every datastore supports this.
-E.g., MySQL doesn't support this yet.
-In such cases there are workarounds like using seperate user accounts for each application.
+Keep in mind: **Not every datastore supports connection naming**.
+E.g., MySQL does not.
+In such cases **there are workarounds**.
+For systems that support user authorization and authentication, using separate user accounts for each application can have a similar effect.
 Read more about this in the instructions for [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}).
 
-Once connection naming is supported, it is usually straightforward without any engineering overhead.
+Once **connection naming is supported**, it is usually **straightforward without any engineering overhead**.
 
 In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/andygrunwald/your-connection-deserves-a-name "Code examples on how to name a connection for Redis, RabbitMQ, PostgreSQL and more") I provide complete examples for different programming languages and systems on how to assign a name to a connection.
 
@@ -212,9 +214,34 @@ _The sad news_:
 The MySQL protocol does not support naming your connection.
 
 _The good news_:
-There is a workaround → Using a seperate username for each application.
+There is a workaround → Using a separate username for each application.
 
-TODO
+For this, a few things need to be done:
+* Get to know which database operations (e.g., `SELECT`, `INSERT`, ...) the application is executing
+* Create a new database user with particular permissions on the executed database operations
+
+The [`CREATE USER`](https://dev.mysql.com/doc/refman/8.0/en/create-user.html) and [`GRANT`](https://dev.mysql.com/doc/refman/8.0/en/grant.html) statements provide instructions on how to create a user and assign individual permissions.
+
+Use this new user to build up the connection:
+
+```go
+// <user>:<password>@<ip>:<port>/<database-namee>
+dsn := "stock-exchange-rates-app:newyork@/connection_name"
+conn, err := sql.Open("mysql", dsn)
+```
+
+To see which clients are connected (incl. their username), you can query the [processlist](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html):
+
+```sql
+SHOW PROCESSLIST;
+
+Id  User                        Host                db              Command Time    State                   Info
+8   root                        172.17.0.1:59426    connection_name Query   0       init                    SHOW PROCESSLIST
+10  stock-exchange-rates-app    172.17.0.1:59434    connection_name Sleep   5                               NULL
+12  currency-conversion-app     172.17.0.1:59442    connection_name Query   5                               SELECT * FROM item;
+```
+
+➡️ Checkout [screenshots and code examples for MySQL at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/mysql).
 
 ### How to assign a name to your _HTTP_ connection
 

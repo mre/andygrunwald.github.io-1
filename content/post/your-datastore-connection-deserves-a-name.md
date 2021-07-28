@@ -46,9 +46,11 @@ aliases = [
     alt="Provide a name to your database connection"
 >}}
 
-**tl;dr**: When your app interacts with an external system (e.g., a database), **assign a name to the connection**.
-The goal should be: **the external system knows who you are**.
-It will reduce the time to debug by multiple hours and often save other applications from failing during an incident.
+**tl;dr**: When multiple apps interact with the same database, bad side-effects can happen:
+One app keeps the database busy, that all other apps stop to respond.
+In this case, you are dealing with an incident that difficult to debug due to a not that obvious root cause.
+**Assigning a name to each database connection** can make your life easier.
+It will reduce the time to debug by multiple hours and finding the root cause faster.
 
 ➡️ Want to see how it works? Checkout examples for [redis]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), [RabbitMQ]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}), [PostgreSQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [MySQL]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}) and [HTTP]({{< ref "your-datastore-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 

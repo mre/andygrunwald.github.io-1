@@ -46,9 +46,9 @@ aliases = [
     alt="Provide a name to your database connection"
 >}}
 
-**tl;dr**: When multiple apps interact with the same database, bad side-effects can happen:
-One app keeps the database busy, that all other apps stop to respond.
-In this case, you are dealing with an incident that difficult to debug due to a not that obvious root cause.
+**tl;dr**: When multiple apps interact with the same database, nasty side-effects can happen:
+One app keeps the database busy, that all other apps stop responding.
+In this case, you are dealing with an incident that is difficult to debug due to a not that obvious root cause.
 **Assigning a name to each database connection** can make your life easier.
 It will reduce the time to debug by multiple hours and finding the root cause faster.
 

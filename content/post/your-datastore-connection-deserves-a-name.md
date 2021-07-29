@@ -60,7 +60,8 @@ From the database, you can differentiate the apps and their commands to identify
 ## Why does naming your datastore connection make sense?
 
 Most of the applications on this planet interact with some datastore.
-_Datastore_ in the context of this article is used as a synonym a database, a cache, a queuing system, ....
+_Datastore_ in the context of this article is used as a synonym for: database, a cache, a queuing system, ....
+In general, a 3rd party system your application interacts with.
 In a perfect world:
 
 * Every application has its own datastore
@@ -68,15 +69,15 @@ In a perfect world:
 * Direct access to the stored data is shielded by an application via an API
 
 The thing is: We don't live in a perfect world.
-The reality is like this:
+The reality often is:
 
 * Several applications share one or multiple datastore
-* These applications get independent developed from each other
+* These applications are developed independently
 * and even may receive different types of traffic patterns
 
-This leads to a situation where one application requests many datastore resources.
+This may lead to a situation where one application requests many datastore resources.
 Triggers can be unexpected traffic spikes or expensive and inefficient queries.
-At the same time, the other applications might suffer from unexpected behavior or a partial outage due to limited resources available on the datastore to serve the requests.
+At the same time, other applications might suffer from unexpected behavior or a partial outage due to limited resources available on the datastore to serve the requests.
 
 {{<
     figure src="/img/posts/your-datastore-connection-deserves-a-name/perfect-engineering-world-vs-reality-shared-database.png"
@@ -90,6 +91,7 @@ Application B is failing because the datastore cannot answer in time due to Appl
 If you are in control of the applications, assigning a name to each connected client can help to
 
 * lower the debugging pain and reduce the time to recover in an outage
+* implement rate limiting per connection name
 * collect usage/resource metrics from the perspective of the datastore over each application
 
 ## How helpful is this in reality?

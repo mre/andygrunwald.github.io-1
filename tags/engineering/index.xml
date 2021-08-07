@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering on Andy Grunwald</title><link>https://andygrunwald.com/tags/engineering/</link><description>Recent content in Engineering on Andy Grunwald</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 25 Jul 2021 08:30:00 +0200</lastBuildDate><atom:link href="https://andygrunwald.com/tags/engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>your database connection deserves a name</title><link>https://andygrunwald.com/blog/your-database-connection-deserves-a-name/</link><pubDate>Sun, 25 Jul 2021 08:30:00 +0200</pubDate><guid>https://andygrunwald.com/blog/your-database-connection-deserves-a-name/</guid><description>&lt;figure>&lt;img src="https://andygrunwald.com/img/posts/your-database-connection-deserves-a-name/assign-a-name-to-your-connection.png"
 alt="Provide a name to your database connection"/>
 &lt;/figure>
-&lt;p>&lt;strong>tl;dr&lt;/strong>: When multiple apps interact with the same database, nasty side-effects can happen:
-One app keeps the database busy; all other apps might stop responding.
-In this case, you are dealing with an incident that is difficult to debug due to a non-obvious root cause.
-&lt;strong>Assigning a name to each database connection&lt;/strong> can make a difference.
+&lt;p>&lt;strong>tl;dr&lt;/strong>:
+In my last eight years working mainly on the scalability and reliability of &lt;a href="https://www.trivago.com/">trivago&lt;/a>, I was involved in many outages where overloaded databases have been the root cause.
+Debugging these incidents is often not straightforward,
+primarily when multiple apps interact with the same database.
+&lt;strong>Assigning a name to each database connection&lt;/strong> make a difference here.
 It will reduce the time to debug by multiple hours and finding the root cause faster.
 From the perspective of the database, you can differentiate the apps and their commands to identify the bad client.&lt;/p>
 &lt;p>➡️ Want to see how it works? Checkout examples for

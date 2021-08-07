@@ -19,6 +19,7 @@ keywords = [
     "RabbitMQ",
     "PostgreSQL",
     "MySQL",
+    "Nats",
     "MongoDB",
     "HTTP",
     "Best practice"
@@ -34,7 +35,7 @@ categories = [
 ]
 
 date = 2021-07-25T08:30:00+02:00
-lastmod = 2021-07-31T15:30:00+02:00
+lastmod = 2021-08-07T14:45:00+02:00
 
 featureimage = ""
 menu = ""
@@ -57,7 +58,7 @@ It will reduce the time to debug by multiple hours and finding the root cause fa
 From the perspective of the database, you can differentiate the apps and their commands to identify the bad client.
 
 ➡️ Want to see how it works? Checkout examples for
-[MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}}), [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}), [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), and non-database systems like [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}) or [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
+[MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}}), [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}), [NATS]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_nats_-connection" >}}), [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), and non-database systems like [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}) or [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 
 <!--more-->
 
@@ -139,6 +140,7 @@ Below you find instructions for
 
 Non-database systems like Message Queues or HTTP based APIs also support connection naming:
 
+- [NATS]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_nats_-connection" >}})
 - [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}})
 - [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}})
 
@@ -152,7 +154,7 @@ In [andygrunwald/your-connection-deserves-a-name @ Github](https://github.com/an
 
 ### How to assign a name to your _MongoDB_ connection
 
-While creating a connection to MongoDB, you can provide an [`appName`](https://docs.mongodb.com/manual/reference/connection-string/#mongodb-urioption-urioption.appName) in the connection string.
+While creating a connection to [MongoDB](https://www.mongodb.com/), you can provide an [`appName`](https://docs.mongodb.com/manual/reference/connection-string/#mongodb-urioption-urioption.appName) in the connection string.
 
 ```go
 dsn := "mongodb://root:secret@127.0.0.1:27017/?appName=currency-conversion-app"
@@ -198,7 +200,7 @@ Applications like [ProxySQL](https://github.com/sysown/proxysql/blob/5ede60ec9fb
 Here is an example in Python with the [PyMySQL library](https://pypi.org/project/PyMySQL/):
 
 ```python
-connection = pymysql.connect(
+client = pymysql.connect(
                 host='127.0.0.1',
                 user='root',
                 password='secret',
@@ -236,11 +238,11 @@ unit-conversion-app | 11 | root | 172.17.0.1:56382 | dummy | [...]
 
 ### How to assign a name to your _PostgreSQL_ connection
 
-While creating a connection to PostgreSQL, you can provide a [`application_name`](https://www.postgresql.org/docs/9.0/runtime-config-logging.html#GUC-APPLICATION-NAME) in the data source name (DSN):
+While creating a connection to [PostgreSQL](https://www.postgresql.org/), you can provide a [`application_name`](https://www.postgresql.org/docs/9.0/runtime-config-logging.html#GUC-APPLICATION-NAME) in the data source name (DSN):
 
 ```go
 dsn := "postgres://user:pass@127.0.0.1/database?application_name=currency-conversion-app"
-conn, err := sql.Open("postgres", dsn)
+client, err := sql.Open("postgres", dsn)
 ```
 
 To see which clients are connected with their application name, you can query the [`pg_stat_activity`](https://www.postgresql.org/docs/9.2/monitoring-stats.html) table:
@@ -258,7 +260,7 @@ postgres=# SELECT usename, application_name, client_addr, backend_type FROM pg_s
 
 ### How to assign a name to your _redis_ connection
 
-After creating a connection to redis, send the [`CLIENT SETNAME`](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
+After creating a connection to [redis](https://redis.io/), send the [`CLIENT SETNAME`](https://redis.io/commands/client-setname "CLIENT SETNAME @ redis docs") command:
 
 ```sh
 CLIENT SETNAME currency-conversion-app
@@ -274,9 +276,44 @@ id=4 addr=172.17.0.1:62676 name=stock-exchange-rates-app [...]
 
 ➡️ Checkout [screenshots and code examples for redis at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/redis).
 
+### How to assign a name to your _NATS_ connection
+
+
+While creating a connection to [NATS](https://nats.io/), you can provide [client connection name](https://docs.nats.io/developing-with-nats/connecting/name "Connection Name @ NATS docs").
+
+This is how it looks like in Go:
+
+```go
+client, err := nats.Connect("nats://127.0.0.1:4222", nats.Name("currency-conversion-app"))
+```
+
+Via the [NATS monitoring endpoint](https://docs.nats.io/nats-server/configuration/monitoring#connection-information "Monitoring endpoint @ NATS docs"), you can see all connected clients, including their names:
+
+
+```json
+$ curl http://127.0.0.1:8222/connz
+{
+  [...]
+  "connections": [
+    {
+      "ip": "172.17.0.1",
+      "port": 57054,
+      [...]
+      "name": "currency-conversion-app",
+      "lang": "go",
+      "version": "1.11.0"
+    }
+  ]
+}
+```
+
+➡️ Checkout [screenshots and code examples for NATS at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/nats).
+
+🙏 Thanks to [Waldemar Quevedo](https://twitter.com/wallyqs), who integrated NATS [via Pull Request](https://github.com/andygrunwald/your-connection-deserves-a-name/pull/2).
+
 ### How to assign a name to your _RabbitMQ_ connection
 
-While creating a connection to RabbitMQ, you can provide AMQP options.
+While creating a connection to [RabbitMQ](https://www.rabbitmq.com/), you can provide AMQP options.
 One of the options is [`connection_name`](https://www.rabbitmq.com/connections.html#client-provided-names "AMQP Client-Provided Connection Name @ RabbitMQ docs").
 
 This is how it looks like in Go:
@@ -287,7 +324,7 @@ config := amqp.Config{
         "connection_name": "currency-conversion-app",
     },
 }
-conn, err := amqp.DialConfig("amqp://guest:guest@127.0.0.1:5672/", config)
+client, err := amqp.DialConfig("amqp://guest:guest@127.0.0.1:5672/", config)
 ```
 
 In the UI of Rabbit under the Connection tab, you can see all connected clients, including their names:

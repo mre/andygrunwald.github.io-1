@@ -35,7 +35,7 @@ categories = [
 ]
 
 date = 2021-07-25T08:30:00+02:00
-lastmod = 2021-08-07T14:45:00+02:00
+lastmod = 2021-08-07T16:30:00+02:00
 
 featureimage = ""
 menu = ""
@@ -50,10 +50,11 @@ aliases = [
     alt="Provide a name to your database connection"
 >}}
 
-**tl;dr**: When multiple apps interact with the same database, nasty side-effects can happen:
-One app keeps the database busy; all other apps might stop responding.
-In this case, you are dealing with an incident that is difficult to debug due to a non-obvious root cause.
-**Assigning a name to each database connection** can make a difference.
+**tl;dr**:
+In my last eight years working mainly on the scalability and reliability of [trivago](https://www.trivago.com/), I was involved in many outages where overloaded databases have been the root cause.
+Debugging these incidents is often not straightforward,
+primarily when multiple apps interact with the same database.
+**Assigning a name to each database connection** make a difference here.
 It will reduce the time to debug by multiple hours and finding the root cause faster.
 From the perspective of the database, you can differentiate the apps and their commands to identify the bad client.
 

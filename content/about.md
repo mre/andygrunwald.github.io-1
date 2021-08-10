@@ -1,38 +1,40 @@
 +++
 draft = false
 
-title = "About"
+title = "About Andy"
 description = "Andy Grunwald, Software Engineer with a focus on Backend, Infrastructure, and Engineering Culture."
-images = []
+images = [
+    "/img/andy-grunwald-opengraph.png"
+]
 keywords = [
     "Andy Grunwald",
     "Software Engineer",
-    "Duisburg, Germany",
+    "Duisburg",
+    "Germany",
     "Web Engineering Meetup Düsseldorf",
     "Open Source",
     "Engineering Culture",
+    "Senior Engineeer"
 ]
 
 date = "2016-07-31T18:53:37+02:00"
-lastmod = 2021-07-16T19:20:00+02:00
+lastmod = 2021-08-10T09:00:00+02:00
 
 featureimage = ""
-menu = "nav"
+menu = ""
 +++
 
-Hi, I am Andy. Nice to meet you.
+<img src="/img/andy-grunwald-opengraph.png" alt="Andy Grunwald" title="Andy Grunwald" width="300" style="float: right; border-radius: 0.2em; margin-left: 1em; margin-bottom: 1em;">
 
-I am a **Software Engineer from [Duisburg, Germany](https://goo.gl/maps/ecvZCGWvtkx)**.
-I love the idea of open-source, have fun solving tricky problems, and **enjoy working with motivated people**.
-Empower people and sharing knowledge via mentoring and public speaking keeps me motivated.
+I'm a Software Engineer, conference and meetup organizer, and open source enthusiast living in [Duisburg, Germany](https://goo.gl/maps/ecvZCGWvtkx).
 
-In my professional job, I am a **Senior Software Engineer at [trivago](https://www.trivago.com/)** in Düsseldorf, Germany.
+You can find me on [Twitter](https://twitter.com/andygrunwald), on [GitHub](https://github.com/andygrunwald), and on [LinkedIn](https://www.linkedin.com/in/andy-grunwald-09aa265a/).
 
-I **organize the [Web Engineering Meetup](https://www.meetup.com/Web-Engineering-Duesseldorf/)** monthly. This local meetup presents exciting talks about various topics from the web developer community. So feel free to join us next time.
+In my professional job, I am a **Senior Software Engineer at [trivago](https://www.trivago.com/)** .
 
-### Get in contact
+I am building [**sourcectl**](https://gettoknow.sourcectl.dev/), a platform to analyze and improve your open source and inner source environment.
 
-Do you want to get in touch with me? To drop me a short message, to have a chat, a meetup, or a beer? No problem!
+I **enjoy working with motivated people** and **organize the [Web Engineering Meetup](https://www.meetup.com/Web-Engineering-Duesseldorf/)**.
 
-**Send me a tweet ([@andygrunwald](https://twitter.com/andygrunwald))**, an email or a postcard :)
-I think you will find the right communication channel for you on this website.
+Want to chat? Feel free to [email](mailto:andygrunwald@gmail.com) me.
+

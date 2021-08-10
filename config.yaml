@@ -71,3 +71,11 @@ menu:
       Weight: -100
       Identifier: "post"
       URL: "/"
+    - Name: "About"
+      Weight: -90
+      URL: "/about/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

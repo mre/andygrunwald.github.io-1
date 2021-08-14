@@ -237,6 +237,8 @@ unit-conversion-app | 11 | root | 172.17.0.1:56382 | dummy | [...]
 
 🙏 Thanks to [Johannes Schlüter](https://twitter.com/johannescode), who pointed me to this feature in MySQL.
 
+PS: This feature was added in [MySQL v5.6.6 (2012-08-07)](https://dev.mysql.com/doc/relnotes/mysql/5.6/en/news-5-6-6.html).
+
 ### How to assign a name to your _PostgreSQL_ connection
 
 While creating a connection to [PostgreSQL](https://www.postgresql.org/), you can provide a [`application_name`](https://www.postgresql.org/docs/9.0/runtime-config-logging.html#GUC-APPLICATION-NAME) in the data source name (DSN):

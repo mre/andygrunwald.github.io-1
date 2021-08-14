@@ -19,6 +19,8 @@ keywords = [
     "RabbitMQ",
     "PostgreSQL",
     "MySQL",
+    "MSSQL",
+    "SQL-Server",
     "Nats",
     "MongoDB",
     "HTTP",
@@ -35,7 +37,7 @@ categories = [
 ]
 
 date = 2021-07-25T08:30:00+02:00
-lastmod = 2021-08-07T16:30:00+02:00
+lastmod = 2021-08-14T11:15:00+02:00
 
 featureimage = ""
 menu = ""
@@ -59,7 +61,7 @@ It will reduce the time to debug by multiple hours and finding the root cause fa
 From the perspective of the database, you can differentiate the apps and their commands to identify the bad client.
 
 ➡️ Want to see how it works? Checkout examples for
-[MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}}), [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}), [NATS]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_nats_-connection" >}}), [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), and non-database systems like [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}) or [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
+[MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}}), [MSSQL / SQL-Server]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mssql--sql-server_-connection" >}}), [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}), [NATS]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_nats_-connection" >}}), [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), and non-database systems like [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}) or [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 
 <!--more-->
 
@@ -135,6 +137,7 @@ This is different for each system.
 Below you find instructions for
 
 - [MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}})
+- [MSSQL / SQL-Server]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mssql--sql-server_-connection" >}})
 - [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}})
 - [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}})
 - [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}})
@@ -189,6 +192,51 @@ or check the server logs:
 ➡️ Checkout [screenshots and code examples for MongoDB at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/mongodb).
 
 🙏 Thanks to [Andreas Braun](https://twitter.com/alcaeus), who pointed me to this feature in MongoDB.
+
+### How to assign a name to your _MSSQL / SQL-Server_ connection
+
+While creating a [connection to SQL-Server, you can set an `Application Name`](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-5.0).
+This is (mostly) part of the data source name (dsn)/connection string.
+
+Here is an example in Go:
+
+```go
+query := url.Values{}
+query.Add("app name", "currency-conversion-app")
+
+u := &url.URL{
+    Scheme:   "sqlserver",
+    User:     url.UserPassword("sa", "yourStrong(!)Password"),
+    Host:     fmt.Sprintf("%s:%d", "127.0.0.1", 1433),
+    Path:     "/",
+    RawQuery: query.Encode(),
+}
+dsn := u.String()
+
+client, err := sql.Open("sqlserver", dsn)
+```
+
+To see which clients are connected (incl. their application name), you can query the `sys.sysprocesses` table:
+
+```sql
+SELECT
+    hostname,
+    program_name,
+    loginame,
+    cmd
+FROM sys.sysprocesses
+WHERE program_name != \"\";
+```
+
+The result should look similar to:
+
+```
+hostname       program_name                  loginame       cmd
+-------------- ----------------------------- -------------- ----------------------
+lap-dev        currency-conversion-app       sa             AWAITING COMMAND
+```
+
+➡️ Checkout [the code examples for MSSQL / SQL-Server at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/mssql).
 
 ### How to assign a name to your _MySQL_ connection
 

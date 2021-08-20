@@ -22,6 +22,7 @@ keywords = [
     "MSSQL",
     "SQL-Server",
     "Nats",
+    "Oracle",
     "MongoDB",
     "HTTP",
     "Best practice"
@@ -37,7 +38,7 @@ categories = [
 ]
 
 date = 2021-07-25T08:30:00+02:00
-lastmod = 2021-08-14T11:15:00+02:00
+lastmod = 2021-08-20T18:25:00+02:00
 
 featureimage = ""
 menu = ""
@@ -61,7 +62,7 @@ It will reduce the time to debug by multiple hours and finding the root cause fa
 From the perspective of the database, you can differentiate the apps and their commands to identify the bad client.
 
 ➡️ Want to see how it works? Checkout examples for
-[MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}}), [MSSQL / SQL-Server]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mssql--sql-server_-connection" >}}), [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}), [NATS]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_nats_-connection" >}}), [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), and non-database systems like [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}) or [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
+[MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}}), [MSSQL / SQL-Server]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mssql--sql-server_-connection" >}}), [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}}), [NATS]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_nats_-connection" >}}), [Oracle database]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_oracle_-connection" >}}), [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}}), [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}}), and non-database systems like [RabbitMQ]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_rabbitmq_-connection" >}}) or [HTTP]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_http_-connection" >}}).
 
 <!--more-->
 
@@ -139,6 +140,7 @@ Below you find instructions for
 - [MongoDB]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mongodb_-connection" >}})
 - [MSSQL / SQL-Server]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mssql--sql-server_-connection" >}})
 - [MySQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_mysql_-connection" >}})
+- [Oracle database]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_oracle_-connection" >}})
 - [PostgreSQL]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_postgresql_-connection" >}})
 - [redis]({{< ref "your-database-connection-deserves-a-name.md#how-to-assign-a-name-to-your-_redis_-connection" >}})
 
@@ -286,6 +288,48 @@ unit-conversion-app | 11 | root | 172.17.0.1:56382 | dummy | [...]
 🙏 Thanks to [Johannes Schlüter](https://twitter.com/johannescode), who pointed me to this feature in MySQL.
 
 PS: This feature was added in [MySQL v5.6.6 (2012-08-07)](https://dev.mysql.com/doc/relnotes/mysql/5.6/en/news-5-6-6.html).
+
+### How to assign a name to your _Oracle_ connection
+
+While executing a query on the Oracle database, you can provide a client name (and other client information) as additional query information.
+This is called [`DBMS_APPLICATION_INFO`](https://docs.oracle.com/en/database/oracle/oracle-database/18/arpls/DBMS_APPLICATION_INFO.html#GUID-14484F86-44F2-4B34-B34E-0C873D323EAD).
+
+Here is an example of how it works in Go (using [godror/godror](https://github.com/godror/godror)):
+
+```go
+// Creating a connection to the oracle database
+[...]
+
+// Adding DBMS_APPLICATION_INFO
+ctx := godror.ContextWithTraceTag(context.Background(), godror.TraceTag{
+    ClientIdentifier: "currency-conversion-app",
+    ClientInfo:       "Demo showcase",
+    DbOp:             "ping",
+    Module:           "oracle/go",
+    Action:           "main",
+})
+
+// Sending DBMS_APPLICATION_INFO
+rows, err := client.QueryContext(ctx, "SELECT sysdate FROM dual")
+```
+
+To see which clients are connected (incl. client information) and executed query statements, you can ask the `v$session` and `v$sqlarea` tables:
+
+```sql
+SQL> SELECT sess.username, sess.client_identifier, sess.module, sess.action, area.sql_text
+FROM v$session sess, v$sqlarea area
+WHERE
+    sess.sql_address = area.address
+    AND sess.username = 'DEMO';
+
+USERNAME        CLIENT_IDENTIFIER         MODULE          ACTION          SQL_TEXT
+--------------- ------------------------- --------------- --------------- ---------------------------
+DEMO            currency-conversion-app   oracle/go       main            SELECT sysdate FROM dual
+```
+
+➡️ Checkout [code examples for Oracle at Github](https://github.com/andygrunwald/your-connection-deserves-a-name/tree/main/oracle).
+
+🙏 Thanks to [Gerald Venzl](https://twitter.com/GeraldVenzl), who pointed me in the right direction with his information.
 
 ### How to assign a name to your _PostgreSQL_ connection
 

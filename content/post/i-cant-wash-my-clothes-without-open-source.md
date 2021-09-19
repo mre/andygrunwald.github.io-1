@@ -1,7 +1,7 @@
 +++
 draft = false
 
-title = "I can't wash my cloth without Open Source"
+title = "I can't wash my clothes without Open Source"
 description = "On my newly bought washing machine, a sheet of paper about the used open source projects was attached. In this article we check what it is all about."
 images = []
 keywords = [
@@ -27,13 +27,16 @@ lastmod = 2021-09-18T07:15:00+02:00
 
 featureimage = ""
 menu = ""
+aliases = [
+    "/blog/i-cant-wash-my-cloth-without-open-source/"
+]
 +++
 
 
 My 20-year-old washing machine broke recently, and I bought a new one: A [Siemens iQ800 WM14VG43](https://www.siemens-home.bsh-group.com/de/produktliste/waeschepflege/waschmaschinen/frontlader/WM14VG43).
 
-The manual contained a sheet of paper headlining [**Information regarding Open Source Software**](/files/informatioin-regarding-open-source-software.pdf).
-Four software projects have been listed: [OpenBSD]({{< ref "i-cant-wash-my-cloth-without-open-source.md#openbsd" >}}), [TropicSSL]({{< ref "i-cant-wash-my-cloth-without-open-source.md#tropicssl" >}}), [Flexible and Economical UTF-8 Decoder]({{< ref "i-cant-wash-my-cloth-without-open-source.md#flexible-and-economical-utf-8-decoder" >}}), and [the WIDE project]({{< ref "i-cant-wash-my-cloth-without-open-source.md#the-wide-project" >}}).
+The manual contained a sheet of paper headlining [**Information regarding Open Source Software**](/files/information-regarding-open-source-software.pdf).
+Four software projects have been listed: [OpenBSD]({{< ref "i-cant-wash-my-clothes-without-open-source.md#openbsd" >}}), [TropicSSL]({{< ref "i-cant-wash-my-clothes-without-open-source.md#tropicssl" >}}), [Flexible and Economical UTF-8 Decoder]({{< ref "i-cant-wash-my-clothes-without-open-source.md#flexible-and-economical-utf-8-decoder" >}}), and [the WIDE project]({{< ref "i-cant-wash-my-clothes-without-open-source.md#the-wide-project" >}}).
 
 <!--more-->
 

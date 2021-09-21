@@ -23,7 +23,7 @@ categories = [
 ]
 
 date = 2021-09-18T07:15:00+02:00
-lastmod = 2021-09-18T07:15:00+02:00
+lastmod = 2021-09-21T20:30:00+02:00
 
 featureimage = ""
 menu = ""
@@ -44,7 +44,7 @@ Let us have a look at them:
 
 ### OpenBSD
 
-[OpenBSD](https://www.openbsd.org/), a multi-platform BSD-based UNIX-like operating system.
+[OpenBSD](https://www.openbsd.org/), a multi-platform BSD-based UNIX-like operating system with a high focus on security.
 
 ### TropicSSL
 

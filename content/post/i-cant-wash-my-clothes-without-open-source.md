@@ -72,7 +72,7 @@ All of them have a focus on low memory usage and low code size.
 Even if I think nowadays a washing machine can afford some compute power.
 
 On the other hand, the used projects seem pretty old (e.g., _TropicSSL_).
-This may lead to the assumption of the usage of older hardware in newer products.
+This may lead to the assumption of the usage of older hardware/software in newer products.
 Or maybe they are just stable, it works, and the engineers love the pragmatism and boring software.
 
 ## Are those the only Open Source projects used?
@@ -80,13 +80,19 @@ Or maybe they are just stable, it works, and the engineers love the pragmatism a
 I doubt that this list of open-source software used in this hardware product is complete.
 The washing machine has support for WLAN and integration for [Home Connect](https://www.home-connect.com/).
 
-I am also not 100 certain why these four open source products have been selected to be printed into the manual.
-My current guess: The software license of this project require this in some form.
+My current guess about why we see these four projects have been selected to be printed into the manual:
+We see the compliance work from one team.
+The first three projects require attribution.
+
+Managing multiple teams to all get compliance for open source done is painfully complex.
+Especially when multiple vendors are involved.
 
 ## Why does it matter?
 
 I do like the fact that there is a sheet of paper as part of the official manual that claims the use of Open Source Software.
-This creates awareness and enables customers to dig a bit deeper.
+Even if this is legally required, most companies ignore it, or they don't know it.
+
+This sheet of paper creates awareness and enables customers to dig a bit deeper.
 I believe this is a step in the right direction for Open Source.
 This step provides a better and broader understanding of the importance of Open Source for those who are not into the software bubble.
 

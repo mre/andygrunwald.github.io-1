@@ -63,7 +63,7 @@ After every conference, I`m very motivated to start new things and have a more i
 This was the same for FOSDEM.
 After the conference, I had a more in-depth look at CVSAnaly.
 I downloaded it, installed it, and started to crawl some repositories I know (e.g. [TYPO3.CMS.git](https://git.typo3.org/Packages/TYPO3.CMS.git "TYPO3 Content Management System Git Repository")).
-Sixteen days after the conference, I began to contribute to CVSAnaly with [a short notice about the max_allowed_packet of MySQL](https://github.com/MetricsGrimoire/CVSAnalY/commit/d69e569d2dff5fa8e98cc0f3c414071eaaf37984 "Commit Add a notice about "max_allowed_packet" to README") for the first time.
+Sixteen days after the conference, I began to contribute to CVSAnaly with [a short notice about the max_allowed_packet of MySQL](https://github.com/MetricsGrimoire/CVSAnalY/commit/d69e569d2dff5fa8e98cc0f3c414071eaaf37984 "Commit Add a notice about 'max_allowed_packet' to README") for the first time.
 
 At this time, I didn`t write one line [Python](https://www.python.org/ "Python programing language").
 But every programmer has to learn one language per year.

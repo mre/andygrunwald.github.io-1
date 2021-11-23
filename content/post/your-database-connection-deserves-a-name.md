@@ -382,7 +382,7 @@ This is how it looks like in Go:
 client, err := nats.Connect("nats://127.0.0.1:4222", nats.Name("currency-conversion-app"))
 ```
 
-Via the [NATS monitoring endpoint](https://docs.nats.io/nats-server/configuration/monitoring#connection-information "Monitoring endpoint @ NATS docs"), you can see all connected clients, including their names:
+Via the [NATS monitoring endpoint](https://docs.nats.io/running-a-nats-service/nats_admin "Monitoring endpoint @ NATS docs"), you can see all connected clients, including their names:
 
 
 ```json

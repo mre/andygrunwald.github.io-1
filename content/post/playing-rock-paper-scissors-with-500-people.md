@@ -47,7 +47,7 @@ The major part of this event is a two-day conference with workshops and presenta
 This year (2019), my peer [Wolfgang Gassler](https://twitter.com/schafele "Wolfgang Gassler at twitter") and I were responsible for organizing this conference.
 We were thinking about how we can kick off this event.
 
-One week before the conference, I was attending a workshop about _Stress, Resilience, and Conflict Management_ by [Philip Schwidetzki](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/ "Philip Schwidetzki at LinkedIn") from [CONTRACT](https://world-of-contract.com/en/ "Contract Coaching").
+One week before the conference, I was attending a workshop about _Stress, Resilience, and Conflict Management_ by [Philip Schwidetzki](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/ "Philip Schwidetzki at LinkedIn") from [CONTRACT](https://world-of-contract.com/ "Contract Coaching").
 After lunch, typically, you play quick energizer games to avoid fatigue.
 With eight people, Philip played [Rock paper scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors "Rock paper scissors at Wikipedia") differently than we were used to it.
 
@@ -99,7 +99,7 @@ Many of them had a lot of fun; it was a quick game, not dull and highly energizi
 Especially when the people start cheering up one person with >= 30 people (the fans!).
 **We can recommend this game to a bigger audience.**
 
-> **Fun Fact**: According to [Philip](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/ "Philip Schwidetzki at LinkedIn") and his peers from [CONTRACT](https://world-of-contract.com/en/ "Contract Coaching"), we are holding the _inofficial_ record of the most players with this game.
+> **Fun Fact**: According to [Philip](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/ "Philip Schwidetzki at LinkedIn") and his peers from [CONTRACT](https://world-of-contract.com/ "Contract Coaching"), we are holding the _inofficial_ record of the most players with this game.
 Start playing it, record it, and beat it!
 
 Here are some impressions of the event.
@@ -164,7 +164,7 @@ That is everything you need to play it with two persons.
 This game would not have been possible without a few people.
 They deserve a vast **Thank you** for this:
 
-- [Philip Schwidetzki](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/ "Philip Schwidetzki at LinkedIn") from [CONTRACT](https://world-of-contract.com/en/ "Contract Coaching") for this idea and his support by providing feedback
+- [Philip Schwidetzki](https://www.linkedin.com/in/philip-schwidetzki-9b38b554/ "Philip Schwidetzki at LinkedIn") from [CONTRACT](https://world-of-contract.com/ "Contract Coaching") for this idea and his support by providing feedback
 - [Wolfgang Gassler](https://twitter.com/schafele "Wolfgang Gassler at twitter") for his trust and help in the execution of this idea
 - [Denise Beckers](https://www.linkedin.com/in/denise-b-14a23115a/ "Denise Beckers at LinkedIn") and [Stefanie Vogel](https://www.linkedin.com/in/stefanie-vogel-239141167/ "Stefanie Vogel at LinkedIn") to make this event happen at all
 - [Beatriz Huélamo](https://www.linkedin.com/in/beatrizhuelamo/ "Beatriz Huélamo at LinkedIn") and [trivago](https://www.trivago.com/ "trivago") for filming and editing of the videos

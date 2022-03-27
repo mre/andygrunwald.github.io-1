@@ -29,7 +29,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.4.1
         with:
-          args: --exclude-mail --exclude sms-digital.com linkedin https://github.com/andygrunwald/your-connection-deserves-a-name -- public
+          args: --exclude-mail --exclude php.net twitter.com sms-digital.com linkedin https://github.com/andygrunwald/your-connection-deserves-a-name -- public
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

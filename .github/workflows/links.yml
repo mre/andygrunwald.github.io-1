@@ -1,4 +1,4 @@
-name: Links
+name: Checking links
 
 on:
   repository_dispatch:
@@ -7,8 +7,8 @@ on:
     - cron: "00 16 * * *"
 
 jobs:
-  linkChecker:
-    runs-on: ubuntu-latest
+  link_checker:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
 
